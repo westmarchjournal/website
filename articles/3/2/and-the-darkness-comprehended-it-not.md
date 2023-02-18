@@ -12,24 +12,24 @@ deep-mouthed dirge." --C.S. Lewis*
 
 *"We could not bear the beauty and the burning." --Dante*
 
-Have you ever felt the singing of the spheres?
-The harmonies of light wound ‘round the world,
-The searing strands of reckless joy unfurl’d
+Have you ever felt the singing of the spheres?<br>
+The harmonies of light wound ‘round the world,<br>
+The searing strands of reckless joy unfurl’d<br>
 Across the cosmos and inside our souls?
 
-Have you ever felt more broken and more whole?
-Like every cut and crack and tear and scar
-Bleeds with the light that burns within the stars—
+Have you ever felt more broken and more whole?<br>
+Like every cut and crack and tear and scar<br>
+Bleeds with the light that burns within the stars—<br>
 The most healing kind of pain I’ve ever known.
 
-Have you ever felt that, when creation groans
-Beneath the weight of all this weary, wounded hope
-It moans a song that strives to mend what evil broke
+Have you ever felt that, when creation groans<br>
+Beneath the weight of all this weary, wounded hope<br>
+It moans a song that strives to mend what evil broke<br>
 That in its sadness is more beautiful by far?
 
-Do you feel this, when you look upon the stars
-And their music resonates within your bones?
-That all the might of one small speck of light, alone
+Do you feel this, when you look upon the stars<br>
+And their music resonates within your bones?<br>
+That all the might of one small speck of light, alone<br>
 Is enough to tear through all the darkness here?
 
 Have you ever felt the singing of the spheres?
