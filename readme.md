@@ -7,6 +7,11 @@ Citation information should be included in each article.
 Figure out how to do biographies. 
 
 Make a submissions page. 
+## Components
+- `_includes/layouts/` contains layout files.
+- `_includes/components/` contains component files. 
+    - `citation.njk` is the citation generator.
+    - `metadata.njk` is the metadata for the `<head>`
 
 ## Visual Design
 Talk to Elyse. 
@@ -25,3 +30,8 @@ I'll get access to the Westmarch Google account with a folder with everything fr
 
 ## Other things
 Donate button. 
+
+## How-to
+### Generate Markdown with [Pandoc](https://pandoc.org/)
+
+`pandoc "filename.docx" -o "filename.md"`
