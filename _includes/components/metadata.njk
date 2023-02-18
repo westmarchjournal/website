@@ -1,1 +1,36 @@
-<!--this is blank-->
+    <meta charset="utf-8">
+    <title>
+        {%- if renderData.title or title -%}
+            {{  renderData.title or title | striptags }}
+        {%- endif %}
+        {%- if layout != "landing" %} | {{ metadata.title }}{%- endif -%}
+    </title>
+    <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
+    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+<meta name="msvalidate.01" content="{{ color or metadata.msvalidate01 }}" />
+<meta name="theme-color" content="{{ color or metadata.color }}">
+<meta property="og:image:width" content="1000">
+<meta property="og:image:height" content="524">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ renderData.description or description or metadata.description }}">
+<meta property="og:url" content="{{ page.url | url | absoluteUrl(metadata.url) }}">
+<meta property="og:image" content="{{ metadata.url }}{{ card or image or metadata.image }}">
+<meta property="og:type" content="website" >
+<link rel="canonical" href="{{ page.url | url | absoluteUrl(metadata.url) }}" >
+<meta name="keywords" content="{{ tags }}">
+<meta name="author" content="{{ metadata.author.name }}">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/site/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/site/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/site/favicon-16x16.png">
+<link rel="shortcut icon" href="/assets/images/site/favicon.ico">
+<meta name="msapplication-TileColor" content="{{ color or metadata.color }}">
+<meta name="msapplication-config" content="/assets/images/site/browserconfig.xml">
+<meta name="theme-color" content="{{ color metadata.color }}">
+
+
+
+<link rel="manifest" href="/site.webmanifest">
