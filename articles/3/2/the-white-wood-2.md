@@ -2,7 +2,7 @@
 title: The White Wood Part II
 author: Harmonious Finch
 authordescription: 
-category: fiction
+tags: ["fiction"]
 permalink: "/3/2/the-white-wood-2/"
 ---
 

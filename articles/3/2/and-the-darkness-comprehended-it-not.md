@@ -2,7 +2,7 @@
 title: And the Darkness Comprehended it Not
 author: Elyse Burgess
 authordescription: Elyse is a senior Classical Liberal Arts major from North Carolina.
-category: poetry
+tags: ["poetry"]
 permalink: "/3/2/and-the-darkness-comprehended-it-not/"
 ---
 *"A sense of great masses moving at visionary speeds, of giants dancing,

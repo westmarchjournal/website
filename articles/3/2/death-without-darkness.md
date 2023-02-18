@@ -2,7 +2,7 @@
 title: Death Without Darkness
 author: Emma Sawyer
 authordescription: Emma is a senior Classical Liberal Arts major from Florida.
-category: narrative-nonfiction
+tags: ["narrative nonfiction"]
 permalink: "/3/2/death-without-darkness/"
 ---
 

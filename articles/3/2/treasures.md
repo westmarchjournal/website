@@ -2,7 +2,7 @@
 title: Treasures
 author: Nathan He
 authordescription: 
-category: poetry
+tags: ["poetry"]
 permalink: "/3/2/treasures/"
 ---
 Golden hour, the delirious exuberance of life; Phoebus<br>

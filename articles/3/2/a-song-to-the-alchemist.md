@@ -3,7 +3,7 @@ title: A song to the Alchemist
 author: Luke Burgess
 authordescription: Luke is a junior Environmental Science and Stewardship major from North Carolina.
 permalink: "/3/2/a-song-to-the-alchemist/"
-category: poetry
+tags: ["poetry"]
 ---
 Ponder and scheme, you old man of knowledge.<br>
 Search in vain for your great prize.<br>
