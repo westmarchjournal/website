@@ -1,5 +1,5 @@
 ---
-title: Upon The <i>Troubadour<i>: A Nautical Ballad
+title: "Upon The <i>Troubadour<i>: A Nautical Ballad"
 author: Anna Fox
 authordescription: Anna is a senior Literature major from North Carolina
 category: fiction
