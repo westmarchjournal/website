@@ -12,6 +12,14 @@ permalink: "/{{ issue.volume }}/{{ issue.issue }}/"
 {% for category in issue.articleCategories %}
   <h2>{{ category | capitalize }}</h2>
   {% set postslist = collections[ category ] %}
-  {% include "components/postslist.njk" %}
+  {# it would be a lot more graceful to use array.prototype.filter and include components/postlist.njk, but this is easier #}
+  {# this should be the exact same code, though, aside for the conditionals #}
+  <ul reversed class="postlist">
+  {% for post in postslist | reverse %}{% if post.data.volume == issue.volume and post.data.issue == issue.issue %}
+    <li class="postlist__item">
+      <a href="{{ post.url | url }}" class="postlist__item__link">{% if post.data.title %}{{ post.data.title | safe }}{% else %}<code>{{ post.url }}</code>{% endif %}, {{ post.data.author }}</a>
+    </li>
+  {% endif %}{% endfor %}
+</ul>
 {% endfor %}
 <p>{{ issue.quote | safe }}</p>
