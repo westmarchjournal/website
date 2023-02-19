@@ -5,9 +5,13 @@ pagination:
   size: 1
 layout: base
 tags: issue
-renderData:
-  title: "Westmarch vol. {{ issue.volume }}, no. {{ fetchIssues.issue }}: {{ issueTitle }}"
-permalink: /hi/
+title: "Westmarch vol. {{ issue.volume }}, no. {{ issue.issue }}: {{ issue.issueTitle }}"
+permalink: "/{{ issue.volume }}/{{ issue.issue }}/"
 ---
-<h1>Westmarch vol. {{ volume }}, no. {{ issue }}: {{ issueTitle }}</h1>
-{{ issue | dump}}
+<h1>Westmarch vol. {{ issue.volume }}, no. {{ issue.issue }}: {{ issue.issueTitle }}</h1>
+{% for category in issue.articleCategories %}
+  <h2>{{ category | capitalize }}</h2>
+  {% set postslist = collections[ category ] %}
+  {% include "components/postslist.njk" %}
+{% endfor %}
+<p>{{ issue.quote | safe }}</p>
