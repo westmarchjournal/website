@@ -1,7 +1,10 @@
 @use "variables" as *;
 $border-width: 3rem;
 $max-width: 50rem;
-
+$text-size: 1rem;
+* {
+    box-sizing: border-box;
+}
 .header nav, main {
     width: auto;
     margin: 0 auto;
@@ -9,6 +12,7 @@ $max-width: 50rem;
 }
 main {
     min-height: calc(100vh - #{2*$border-width});
+    padding: 1rem;
 }
 
 h1 {
@@ -25,4 +29,5 @@ body {
 .header, footer {
     height: $border-width;
     background-color: $theme-color;
+    padding: ($border-width - $text-size)/2;
 }
