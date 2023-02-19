@@ -81,7 +81,7 @@ maybe she didn't, but we reminded ourselves of the light of Christ as we
 passed under every new wave, and the nurses, doctors, and other
 sufferers on that floor heard our hope.
 
-After thirteen days, on January 7^th^, 2020, the doctors finally
+After thirteen days, on January 7<sup>th</sup>, 2020, the doctors finally
 declared Sonia brain dead. No more surgeries, no more chances, no more
 waiting. She was gone. We had gone home already, but the family texted
 us, and we drove right back out. Her daughters were so calm, so
