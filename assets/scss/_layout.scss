@@ -1,0 +1,28 @@
+@use "variables" as *;
+$border-width: 3rem;
+$max-width: 50rem;
+
+.header nav, main {
+    width: auto;
+    margin: 0 auto;
+    max-width: $max-width;
+}
+main {
+    min-height: calc(100vh - #{2*$border-width});
+}
+
+h1 {
+    margin: 0;
+}
+
+body {
+    border-color: $theme-color;
+    border-width: 0 $border-width;
+    border-style: solid;
+    margin: 0;
+}
+
+.header, footer {
+    height: $border-width;
+    background-color: $theme-color;
+}

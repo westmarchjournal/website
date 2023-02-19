@@ -1,0 +1,11 @@
+.header {
+    ol {
+        margin: 0 auto;
+        li {
+            display: inline-block;
+            &::after {
+                content: string("❧");
+            }
+        }
+    }
+}

@@ -10,8 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="/assets/css/main.css">
 
-<meta name="msvalidate.01" content="{{ color or metadata.msvalidate01 }}" />
-<meta name="theme-color" content="{{ color or metadata.color }}">
+<meta name="msvalidate.01" content="{{ metadata.msvalidate01 }}" />
+<meta name="theme-color" content="{{ issue.color or color or metadata.color }}">
+<style>:root {--theme-color: {{ issue.color or color or metadata.color }}}</style>
 <meta property="og:image:width" content="1000">
 <meta property="og:image:height" content="524">
 <meta property="og:title" content="{{ title }}">
@@ -29,7 +30,7 @@
 <link rel="shortcut icon" href="/assets/images/site/favicon.ico">
 <meta name="msapplication-TileColor" content="{{ color or metadata.color }}">
 <meta name="msapplication-config" content="/assets/images/site/browserconfig.xml">
-<meta name="theme-color" content="{{ color or metadata.color }}">
+<meta name="theme-color" content="{{ issue.color or color or metadata.color }}">
 
 
 
