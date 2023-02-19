@@ -1,0 +1,15 @@
+@use "variables" as *;
+$body-text: Georgia, serif;
+$text-color: #160e00;
+
+* {
+    font-family: $body-text;
+    color: $text-color;
+}
+p {
+    line-height: 1.5;
+}
+
+a {
+    color: $text-color;
+}
