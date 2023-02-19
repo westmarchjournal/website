@@ -1,9 +1,9 @@
 ---
 author: Kelly Freestone
 authordescription: "Kelly Freestone is visiting professor of Classics at Patrick Henry College."
-title: Georgics 2.475-486
+title: <i>Georgics</i> 2.475-486
 tags: ["poetry"]
-permalink: "/3/2/georgics-2-475-486.md"
+permalink: "/3/2/georgics-2-475-486/"
 ---
 
 ## Latin:
