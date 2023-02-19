@@ -12,7 +12,7 @@ function getSubdirs (dir) {
 // returns the first JSON file as an object
 // Potential problem: if there is more than one JSON file, this will throw an error
 // TODO: fix this by matching the filename
-function getJSON (filePath, dirname) {
+function getJSON (filePath) {
     // gets a list of items
     items = fs.readdirSync(filePath, { withFileTypes: true })
         .filter(function(item) {
@@ -57,6 +57,10 @@ function issues(dir) {
     return issues
 }
 
-module.exports = function ( dir = "articles") {
-    return issues(dir)
+// weird things were happening when I passed a value through the function
+// it was passing in a system data object instead of the default value
+// I'm guessing that has to do with the internal anatomy of Eleventy, so this value is hard-coded
+module.exports = function() {
+    let i = issues("articles")
+    return i
 }
