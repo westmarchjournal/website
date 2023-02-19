@@ -1,15 +1,29 @@
 @use "variables" as *;
 $body-text: Georgia, serif;
-$text-color: #160e00;
 
 * {
     font-family: $body-text;
     color: $text-color;
+    line-height: 1;
 }
-p {
-    line-height: 1.5;
+
+main * {
+    line-height: 2;
 }
 
 a {
-    color: $text-color;
+    color: inherit;
 }
+
+.header, footer {
+    --text-color: var(--color-dark);
+}
+
+blockquote {
+    margin: 0 5rem;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+
+  h1, h2, h3 {
+    line-height: 1.1;
+  }

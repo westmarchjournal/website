@@ -1,5 +1,20 @@
 $theme-color: var(--theme-color);
+$color-light: var(--color-light);
+$color-dark: var(--color-dark);
+$text-color: var(--text-color);
+$background-color: var(--background-color);
+$header-color: var(--color-dark);
 
 :root {
-    --theme-color: white;
+    --theme-color: #e5dac7;
+    --color-light: #e5dac7;
+    --color-dark: #160e00;
+    --text-color: var(--color-dark);
+    --background-color: var(--color-light);
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: var(--color-light);
+        --background-color: var(--color-dark);
+    }
 }
