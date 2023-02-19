@@ -305,7 +305,7 @@ of redemptive history, and it is the reason for which all God's people
 can say with Hannah and Mary, "My soul magnifies the Lord, and my spirit
 rejoices in God my Savior...for I delight in your deliverance."[^56]
 
-Bibliography
+## Bibliography
 
  \"ψυχή,\" \"πνεῦμά.\" *A Lexicon: Abridged from Liddell and Scott's
 Greek-English Lexicon.* Oxford: Oxford University Press, 1891, 566-567,
