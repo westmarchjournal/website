@@ -4,5 +4,10 @@ layout: base
 permalink: "/"
 ---
 <h1>Westmarch Journal</h1>
-{% set postslist = collections.article  %}
-{% include "components/postslist.njk" %}
+{% set issues = fetchIssues  %}
+{% for issue in issues %}
+    <article>
+        <h2><a href="/{{ issue.volume }}/{{ issue.issue }}/">
+            vol. {{ issue.volume }}, no. {{ issue.issue }}: {{ issue.issueTitle }}</a></h2>
+    </article>
+{% endfor %}
