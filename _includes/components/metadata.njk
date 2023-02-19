@@ -1,9 +1,6 @@
     <meta charset="utf-8">
     <title>
-        {%- if renderData.title or title -%}
-            {{  renderData.title or title | striptags }}
-        {%- endif %}
-        {%- if title != "Westmarch" %} | {{ metadata.title }}{%- endif -%}
+            {{  pageTitle or title | striptags }}
     </title>
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">

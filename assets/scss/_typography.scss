@@ -15,6 +15,10 @@ a {
     color: inherit;
 }
 
+i {
+    text-decoration: inherit;
+}
+
 .header, footer {
     --text-color: var(--color-dark);
 }

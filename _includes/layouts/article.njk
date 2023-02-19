@@ -1,5 +1,7 @@
 ---
 layout: base
+eleventyComputed:
+    pageTitle: "{{ title }} | Westmarch vol. {{ volume}}, no. {{ issue }}"
 ---
 <h1>{{ title | safe }}</h1>
 {% include "components/citation.njk" %}
