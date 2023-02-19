@@ -1,0 +1,25 @@
+<nav class="header">
+    <ol class="header-breadcrumbs">
+        {% set continue = true %}
+        <li><a href="/"
+            {% if page.url == "/" %}
+                aria-current="page"
+                {% set continue = false %}
+            {% endif %}
+            >
+            {{ metadata.title }}
+        </a></li>
+        {% if issue and continue %}
+            <li><a href="/{{ issue.volume or volume }}/{{ issue.issue or issue }}/"
+                {% if tags == "issue" %}
+                    aria-current="page"
+                    {% set continue  = false %}
+                {% endif %}>
+                vol. {{ issue.volume or volume }}, issue {{ issue.issue or issue }}
+            </a></li>
+        {% endif %}
+        {% if continue %}
+            <li><a href="{{ page.url }}" aria-current="page">{{ title | safe }}</a></li>
+        {% endif %}
+    </ol>
+</nav>
