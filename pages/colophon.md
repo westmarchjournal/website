@@ -7,7 +7,7 @@ permalink: "/colophon/"
 
 All content is copyright of its respective authors and the Westmarch Literary Journal. 
 
-Please direct any inquiries or comments to [{{metadata.email}}](mailto:{{metadata.email}}). 
+Please direct any inquiries or comments to [{{metadata.author.email}}](mailto:{{metadata.author.email}}). 
 
 Scripture quotations marked ESV are from The ESV® Bible (The Holy Bible, English Standard Version®), copyright © 2001 by Crossway, a publishing ministry of Good News Publishers. Used by permission. All rights reserved.
 

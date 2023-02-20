@@ -7,7 +7,7 @@
                 {% set continue = false %}
             {% endif %}
             >
-            {{ metadata.title | capitalize }}
+            {{ metadata.title | title }}
         </a></li>
         {% if issue and continue %}
             <li><a href="/{{ issue.volume or volume }}/{{ issue.issue or issue }}/"
