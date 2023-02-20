@@ -28,7 +28,7 @@ body {
 }
 
 .header, footer {
-    height: $border-width;
+    min-height: $border-width;
     background-color: $theme-color;
     padding: ($border-width - $text-size)/2;
 }
