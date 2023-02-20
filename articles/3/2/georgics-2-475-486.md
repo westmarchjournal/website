@@ -37,7 +37,7 @@ Let countryside delight, let flowing rivers claim,<br>
 Let me love streams and woods, myself unknown to fame.<br>
 
 This translation is taken from a beautiful passage in the middle the
-Georgics, in which Virgil calls upon the Muses to instruct and inspire
+*Georgics*, in which Virgil calls upon the Muses to instruct and inspire
 his poetic endeavors. For my choice of meter, I followed the example of
 C.S. Lewis (Classicist turned English professor), who wrote a
 posthumously-published and not particularly well-known partial
