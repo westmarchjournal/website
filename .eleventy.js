@@ -14,6 +14,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("LLLL dd, yyyy");
   });
+  eleventyConfig.addFilter("year", dateObj => {
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("yyyy");
+  });
   eleventyConfig.addFilter("slugify-removeChars", function(value) {
     let product = slugify(value, {
       replacement: '-',    // replace spaces with replacement

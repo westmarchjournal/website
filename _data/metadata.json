@@ -1,5 +1,5 @@
 {
-  "title": "Westmarch",
+  "title": "the Westmarch Literary Journal",
   "short_title": "Westmarch",
   "url": "https://westmarch.netlify.app/",
   "citationurl": "westmarch.netlify.app",
@@ -7,18 +7,18 @@
   "keywords": "",
   "lang": "en-US",
   "image": "",
-  "color": "#b9b375",
+  "color": "#f0ece6",
   "color_background": "#b9b375",
   "msvalidate01": "undefined",
   "feed": {
-    "subtitle": "The Westmarch literary journal",
+    "subtitle": "The Westmarch Literary Journal",
     "filename": "feed.xml",
     "path": "/feed.xml",
     "url": "/feed.xml",
     "id": "undefined/"
   },
   "author": {
-    "name": "Micah Torcellini",
-    "email": ""
+    "name": "The Westmarch Editors",
+    "email": "webmaster@torcellini.org"
   }
 }
