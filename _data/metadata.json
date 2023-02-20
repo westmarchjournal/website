@@ -1,7 +1,8 @@
 {
   "title": "Westmarch",
   "short_title": "Westmarch",
-  "url": "",
+  "url": "https://westmarch.netlify.app/",
+  "citationurl": "westmarch.netlify.app",
   "description": "The Westmarch literary journal at Patrick Henry College",
   "keywords": "",
   "lang": "en-US",
@@ -10,7 +11,7 @@
   "color_background": "#b9b375",
   "msvalidate01": "undefined",
   "feed": {
-    "subtitle": "The RSS Feed Westmarch",
+    "subtitle": "The Westmarch literary journal",
     "filename": "feed.xml",
     "path": "/feed.xml",
     "url": "/feed.xml",
@@ -19,6 +20,5 @@
   "author": {
     "name": "Micah Torcellini",
     "email": ""
-  },
-  "logo": "/assets/images/site/favicon.svg"
+  }
 }
