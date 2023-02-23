@@ -1,6 +1,7 @@
 @use "variables" as *;
-$max-width: 50rem;
-$border-width: calc(100vh - #{$max-width - + 20rem});
+$padding: 5rem;
+$max-width: 50rem + $padding;
+$border-width: max(1.5rem, calc(50vw - #{$max-width/2}));
 $text-size: 1rem;
 $header-height: 3rem;
 * {
@@ -13,7 +14,7 @@ $header-height: 3rem;
 }
 main {
     min-height: calc(100vh - #{2*$header-height});
-    padding: 1rem;
+    padding: $padding;
 }
 
 h1 {
@@ -36,5 +37,5 @@ body {
     min-height: $header-height;
     background-color: $header-color;
     color: $color-light;
-    padding: ($border-width - $text-size)/2;
+    padding: ($header-height - $text-size)/2;
 }
