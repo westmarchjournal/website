@@ -39,3 +39,16 @@ body {
     color: $color-light;
     padding: ($header-height - $text-size)/2;
 }
+
+.editor-list {
+    dt, dd {
+        display:inline;
+        margin: 0
+    }
+    dt::after {
+        content: ": "
+    }
+    dd::after {
+        content: " ❧ "
+    }
+}
