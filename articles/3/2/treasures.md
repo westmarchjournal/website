@@ -1,7 +1,7 @@
 ---
 title: Treasures
 author: Nathan He
-authordescription: 
+authordescription: "Nathan is a freshman from North Carolina."
 tags: ["poetry"]
 permalink: "/3/2/treasures/"
 ---

@@ -1,6 +1,6 @@
 ---
 author: Kelly Freestone
-authordescription: "Kelly is a PHC alumna who graduated in 2020. She majored in Classical Liberal Arts."
+authordescription: Kelly is a PHC alumna who graduated in 2020. She majored in Classical Liberal Arts.
 title: <i>Georgics</i> 2.475-486
 tags: ["poetry"]
 permalink: "/3/2/georgics-2-475-486/"

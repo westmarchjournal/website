@@ -1,7 +1,6 @@
 ---
 title: The White Wood Part II
 author: Harmonious Finch
-authordescription: 
 tags: ["fiction"]
 permalink: "/3/2/the-white-wood-2/"
 ---
@@ -316,7 +315,7 @@ nevermore strike their blackened death upon this land. I shall stand
 before the Wood, just as you stood before me, and hold the blade back in
 its incessant murder.*
 
-> *I have taken up your staff, I shall honor you till that good end.*
+*I have taken up your staff, I shall honor you till that good end.*
 
 *Your brother, blessed to hold you as kin,*
 
