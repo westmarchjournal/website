@@ -66,15 +66,13 @@ of surgery; eventually her husband was just buying time, not wanting to
 be the one to make the final call. Her chest rose and fell so evenly,
 mechanically, as pumps forced air into her lungs. Tubes and cords spread
 out around her, connecting her to the technology that kept her body
-stable. We sang to her often.
-
-> "Blessed be Your name on the road marked with suffering, though
-> there's pain in the offering, blessed be Your name[^1]...O Father use
-> my ransomed life, in any way You choose, and let my song forever be,
-> 'My only boast is You'[^2]...We will stand as children of the promise,
-> we will fix our eyes on You, our hope's reward, 'til the race is
-> finished and the work is done, we'll walk by faith and not by
-> sight."[^3]
+stable. We sang to her often. "Blessed be Your name on the road marked
+with suffering, though there's pain in the offering, blessed be Your
+name[^1]...O Father use my ransomed life, in any way You choose, and let
+my song forever be, 'My only boast is You'[^2]...We will stand as
+children of the promise, we will fix our eyes on You, our hope's reward,
+'til the race is finished and the work is done, we'll walk by faith and
+not by sight."[^3]
 
 She loved to sing, and we loved to sing to her. Maybe she heard us and
 maybe she didn't, but we reminded ourselves of the light of Christ as we
@@ -153,14 +151,22 @@ of death, blazing away its victory and burning away its sting, and no
 wind or rain or wave will quench Him while we stay in this stormy
 in-between.
 
-[^1]: "Blessed Be Your Name," Matt Redman
+[^1]: Matt Redman, "Blessed Be Your Name," by Beth Redman and Matt
+    Redman, recorded 2002, Track 2 on *Where Angels Fear to Tread*, CMG,
+    <https://open.spotify.com/track/6cuagVmvMJalnJwEEqpsju?si=49fb00f5c6584de4>.
 
-[^2]: "All I Have Is Christ," Jordan Kauflin
+[^2]: Jordan Kauflin, "All I Have is Christ," recorded 2008, Track 1 on
+    *All I Have is Christ*, 2014, Integrity Music,
+    <https://open.spotify.com/track/65kxdpXxTk6IpahSnJBiT1?si=641204fa5c054028>.
 
-[^3]: "By Faith," Keith and Kristyn Getty
+[^3]: Keith and Krysten Getty, "By Faith," by Keith Getty, Krysten
+    Getty, and Stuart Townsend, recorded 2009, Track 5 on *Awaken the
+    Dawn*, CMG,
+    <https://open.spotify.com/track/3rYWHA6qsDCT6QPeQnrYcz?si=2e925b36717d4e81>.
 
-[^4]: "The Lord Is My Salvation," Keith and Kristyn Getty
+[^4]: Keith and Kyrsten Getty, "The Lord is my Salvation," by Keith
+    Getty, Krysten Getty, Jonas Myrin, and Nathan Nockels, recorded
+    2016, Track 8 on *Facing a Task Unfinished (Deluxe Edition)*, CMG,
+    <https://open.spotify.com/track/0lNRoHi9Y3mB3AklVWAtUf?si=6e0b5f3253444ce4>.
 
-[^5]: The traditional Irish blessing, author unknown. I have no idea how
-    you would even cite this, and I have no memory of what choral
-    arrangement we sang, I'm so sorry
+[^5]: Traditional Irish Blessing
