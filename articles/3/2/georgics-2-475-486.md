@@ -47,5 +47,7 @@ like prose in the middle” while the rhyming couplets at the lines’ end
 “keeps them in order” and has the tightening, almost cadential effect of
 the dactyl-spondee conclusion of a Latin hexameter.[^1]
 
+*[Editor's note: [A more detailed description is published here.](/3/2/georgics-description-extended/)]*
+
 [^1]: *C.S. Lewis’s Lost Aeneid: Arms and the Exile*, A.T. Reyes, ed. (New Haven: Yale
 University Press, 2011), 5-6.
