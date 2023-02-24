@@ -2,8 +2,17 @@
     "volume": 3,
     "issue": 2,
     "date": "2023-02-24",
-    "issueTitle": "Between the Lighthouse and the Sea",
+    "issueTitle": "Between the Lighthouse and the Storm",
     "color": "#A6CBD8",
     "articleCategories": ["poetry", "fiction", "narrative nonfiction", "criticism"],
-    "quote": "“...it is an ever-fixed mark <br> That looks on tempests and is never shaken; <br> It is the star to every wand’ring bark, <br> Whose worth’s unknown, although his height be taken.” –William Shakespeare, Sonnet 116"
+    "editors": [
+        {"role": "Editor-in-Chief", "name": "Lauren Crane"},
+        {"role": "Content Editor", "name": "Anna Fox"},
+        {"role": "Content Editor", "name": "Kaitlyn Tully"},
+        {"role": "Content Editor", "name": "Abbie Mourey"},
+        {"role": "Layout Editor", "name": "Elyse Burgess"}
+    ],
+    "quote": "...it is an ever-fixed mark <br> That looks on tempests and is never shaken; <br> It is the star to every wand’ring bark, <br> Whose worth’s unknown, although his height be taken.",
+    "quoteSource": "William Shakespeare, Sonnet 116",
+    "letterurl": "from-the-editor"
 }
