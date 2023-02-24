@@ -10,6 +10,7 @@
   "color": "#cfad86",
   "color_background": "#b9b375",
   "msvalidate01": "undefined",
+  "webmasterEmail": "webmaster@westmarchjournal.org",
   "feed": {
     "subtitle": "The Westmarch Literary Journal",
     "filename": "feed.xml",
@@ -19,6 +20,6 @@
   },
   "author": {
     "name": "The Westmarch Editors",
-    "email": "webmaster@torcellini.org"
+    "email": "westmarch@westmarchjournal.org"
   }
 }
