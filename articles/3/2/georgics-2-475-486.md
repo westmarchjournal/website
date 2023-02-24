@@ -1,6 +1,6 @@
 ---
 author: Kelly Freestone
-authordescription: "Kelly Freestone is visiting professor of Classics at Patrick Henry College."
+authordescription: "Kelly is a PHC alumna who graduated in 2020. She majored in Classical Liberal Arts."
 title: <i>Georgics</i> 2.475-486
 tags: ["poetry"]
 permalink: "/3/2/georgics-2-475-486/"
@@ -36,7 +36,7 @@ But if such realms of nature I cannot attain<br>
 Let countryside delight, let flowing rivers claim,<br>
 Let me love streams and woods, myself unknown to fame.<br>
 
-This translation is taken from a beautiful passage in the middle the
+This translation is taken from a beautiful passage in the middle of the
 *Georgics*, in which Virgil calls upon the Muses to instruct and inspire
 his poetic endeavors. For my choice of meter, I followed the example of
 C.S. Lewis (Classicist turned English professor), who wrote a
