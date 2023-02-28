@@ -1,0 +1,24 @@
+---
+pagination:
+  data: collections.article
+  size: 1
+  alias: citation
+  addAllPagesToCollections: true
+permalink: /{{ citation.url }}/citation.ris
+---
+TY  - EJOUR
+A1  - {{ citation.data.author }}
+DA  - {{ citation.date | year }}
+PY  - {{ citation.date | year }}
+J1  - {{ metadata.title | title }}
+J2  - {{ metadata.short_title }}
+JA  - {{ metadata.short_title }}
+JF  - {{ metadata.title | title }}
+L2  - {{ citation.url | url | absoluteUrl(metadata.url) }}
+LK  - {{ citation.url | url | absoluteUrl(metadata.url) }}
+T1  - {{ citation.data.title }}
+T2  - {{ metadata.title | title }}
+TI  - {{ citation.data.title }}
+VL  - {{ citation.data.volume }}
+IS  - {{ citation.data.issue }}
+ER  - 

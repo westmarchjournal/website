@@ -1,4 +1,11 @@
 <details class="citation">
     <summary>Cite this page</summary>
-    <p>{{ author }}, &ldquo;{{ title | safe }}&rdquo; <i>{{ metadata.title }}</i> {{ volume }}, no. {{ issue }} ({{ page.date |readableDate }}), {{ page.url | url | absoluteUrl(metadata.url) }}. </p>
+    <p><a href="{{ page.url }}citation.ris">Download RIS for citation generator.</a></p>
+    <p>
+        {{ author }}, 
+        &ldquo;{{ title | safe }},&rdquo; 
+        <i>{{ metadata.title | title }}</i> 
+        {{ volume }}, no. {{ issue }} ({{ page.date | readableDate }}), 
+        {{ metadata.citationurl}}{{ page.url | url }}. 
+    </p>
 </details>
