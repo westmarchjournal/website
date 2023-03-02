@@ -1,7 +1,8 @@
 ---
 title: "Rejoicing in God's Salvation & the Promised Savior: An Exegetical Study
 of the Songs of Hannah and Mary"
-author: Brynna Clendenen
+name: Brynna
+surname: Clendenen
 authordescription: Brynna is a senior Classical Liberal Arts major from West Virginia.
 tags: ["criticism"]
 permalink: "/3/2/rejoicing-in-god-s-salvation/"

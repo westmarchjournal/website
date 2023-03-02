@@ -1,6 +1,7 @@
 ---
 title: Letter from the Editor
-author: Lauren Crane
+name: Lauren
+surname: Crane
 tags: ["letter"]
 permalink: "/3/2/from-the-editor/"
 ---

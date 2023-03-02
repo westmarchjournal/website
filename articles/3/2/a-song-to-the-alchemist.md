@@ -1,6 +1,7 @@
 ---
 title: A song to the Alchemist
-author: Luke Burgess
+name: Luke
+surname: Burgess
 authordescription: Luke is a junior Environmental Science and Stewardship major from North Carolina.
 permalink: "/3/2/a-song-to-the-alchemist/"
 tags: ["poetry"]

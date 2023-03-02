@@ -1,3 +1,8 @@
+---
+eleventyComputed:
+    author: "{% if name and surname %}{{ name }} {{ surname }}{% else %}{{ author }}{% endif %}"
+    citationAuthor: "{% if name and surname %}{{ surname }}, {{ name }}{% else %}{{ author }}{% endif %}"
+---
 <!doctype html>
 <html lang="en">
     <head>
