@@ -51,4 +51,7 @@ body {
     dd::after {
         content: " ❧ "
     }
+    dd:last-child::after {
+        content: none;
+        }
 }
