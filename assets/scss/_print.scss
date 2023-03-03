@@ -1,0 +1,11 @@
+@use "variables";
+@media print {
+    .print-hide {
+        display: none;
+    }
+}
+@media screen {
+    .screen-hide {
+        display: none;
+    }
+}

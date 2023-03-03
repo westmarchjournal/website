@@ -1,8 +1,9 @@
 <footer>
-    <ol>
-        <li><a href="/feed.xml">Feed</a></li>
-        <li><a href="/staff/">Editorial Staff</a></li>
-        <li><a href="/colophon/">Colophon</a></li>
+    <ul>
+        <li class="print-hide"><a href="/feed.xml">Feed</a></li>
+        <li class="print-hide"><a href="/staff/">Editorial Staff</a></li>
+        <li class="print-hide"><a href="/colophon/">Colophon</a></li>
         <li>Copyright {{ page.date | year }} {% if author %}{{ author }} and {% endif %}{{ metadata.title }}.</li>
-    </ol>
+    </ul>
+    <ul class="screen-hide"><li>{{ metadata.citationurl }}{{ page.url | url }}</ul>
 </footer>
