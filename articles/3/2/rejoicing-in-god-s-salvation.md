@@ -321,7 +321,7 @@ Publishing Co., 1997.
 Kaiser, Walter C. Jr. *The Messiah in the Old Testament*. Grand Rapids:
 Zondervan Publishing House, 1995.
 
-Klein, Ralph W. *10 Word Biblical Commentary: 1 Samuel*, 2^nd^ ed. Grand
+Klein, Ralph W. *10 Word Biblical Commentary: 1 Samuel*, 2<sup>nd</sup> ed. Grand
 Rapids: Zondervan, 2000.
 
 Tsumura, David Toshio. *The First Book of Samuel*. Grand Rapids: Wm. B.
