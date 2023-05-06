@@ -1,0 +1,18 @@
+{
+    "volume": 3,
+    "issue": 3,
+    "date": "2023-05-01",
+    "issueTitle": "Transformation",
+    "color": "#A6CBD8",
+    "articleCategories": ["poetry", "fiction", "narrative nonfiction", "criticism"],
+    "editors": [
+        {"role": "Editor-in-Chief", "name": "Lauren Crane"},
+        {"role": "Content Editor", "name": "Anna Fox"},
+        {"role": "Content Editor", "name": "Kaitlyn Tully"},
+        {"role": "Content Editor", "name": "Abbie Mourey"},
+        {"role": "Layout Editor", "name": "Elyse Burgess"}
+    ],
+    "quote": "And so with the sunshine and the great bursts of leaves growing on the trees, just as things grow in fast movies, I had that familiar conviction that life was beginning over again with the summer.",
+    "quoteSource": "F. Scott Fitzgerald",
+    "letterurl": "from-the-editor"
+}
