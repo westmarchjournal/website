@@ -8,6 +8,15 @@ $body-text: Georgia, serif;
     line-height: 1;
 }
 
+hr {
+    border: none;
+    text-align: center;
+}
+
+hr::after {
+    content: " ☙ ✾ ❧ "
+}
+
 main * {
     line-height: 2;
 }
