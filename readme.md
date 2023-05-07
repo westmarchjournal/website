@@ -35,3 +35,5 @@ Donate button.
 ### Generate Markdown with [Pandoc](https://pandoc.org/)
 
 `pandoc "filename.docx" -o "filename.md"`
+
+To generate Markdown for all the files in the directory (Powershell): `Get-ChildItem -File | Foreach {pandoc $_.Name -o (-join ($_.Name, ".md"))}`
