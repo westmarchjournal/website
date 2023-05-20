@@ -18,7 +18,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx eleventy && sass assets/scss/main.scss:_site/assets/css/main.css",
-    "dev": "npx eleventy --serve"
+    "dev": "npx eleventy --serve",
+    "sass": "sass assets/scss/main.scss:_site/assets/css/main.css --watch"
   },
   "repository": {
     "type": "git",
