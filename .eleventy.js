@@ -32,6 +32,7 @@ module.exports = function(eleventyConfig) {
 
   // shortcodes 
   eleventyConfig.addShortcode("ytEmbed", require("./_11ty/ytEmbed.js"));
+  eleventyConfig.addShortcode("citation", require("./_11ty/citation.js"));
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {

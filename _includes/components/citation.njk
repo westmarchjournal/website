@@ -1,11 +1,23 @@
 <details class="citation">
     <summary>Cite this page</summary>
     <p><a href="{{ page.url }}citation.ris">Download RIS for citation generator.</a></p>
+        {% set data  = {
+            "authors":  [
+                {
+                    "name": name,
+                    "surname": surname,
+                    "author": author
+                }
+            ],
+            "date": page.date,
+            "title": title,
+            "journaltitle": metadata.title | title,
+            "volume": volume,
+            "issue": issue,
+            "url": metadata.citationurl + page.url | url
+        }
+        %}
     <p>
-        {{ author }}, 
-        &ldquo;{{ title | safe }},&rdquo; 
-        <i>{{ metadata.title | title }}</i> 
-        {{ volume }}, no. {{ issue }} ({{ page.date | readableDate }}), 
-        {{ metadata.citationurl }}{{ page.url | url }}. 
+        {% citation "turabian-note", data %}
     </p>
 </details>
