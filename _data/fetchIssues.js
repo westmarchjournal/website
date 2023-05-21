@@ -49,12 +49,12 @@ function getDirList(dir) {
 // the main function
 function issues(dir) {
     let dirs = getDirList(dir)
-    issues = [];
+    issueList = [];
     dirs.forEach(function(filePath) {
         json = getJSON(filePath)
-        issues.push(json)
+        issueList.push(json)
     })
-    return issues
+    return issueList
 }
 
 // weird things were happening when I passed a value through the function
