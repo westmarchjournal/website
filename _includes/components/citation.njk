@@ -17,7 +17,16 @@
             "url": metadata.citationurl + page.url | url
         }
         %}
-    <p>
-        {% citation "turabian-note", data %}
-    </p>
+    <details><summary>Turabian Note</summary>
+        <p>{% citation "turabian-note", data %}</p>
+    </details>
+    <details><summary>Turabian Bibliography</summary>
+        <p>{% citation "turabian-bib", data %}</p>
+    </details>
+    <details><summary>MLA</summary>
+        <p>{% citation "mla", data %}</p>
+    </details>
+    <details><summary>APA</summary>
+        <p>{% citation "apa", data %}</p>
+    </details>
 </details>
