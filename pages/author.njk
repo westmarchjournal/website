@@ -1,14 +1,24 @@
----
-pagination:
-  data: fetchAuthors
-  alias: authordata
-  size: 1
-layout: base
-tags: issue
-eleventyComputed:
-  title: "{{ athordata.name }}"
-  author: "{{ authordata.name }}"
-permalink: "authors/{{ authordata.name | slugify }}/"
+---js
+{
+  "pagination": {
+    data: function(){
+        const fs = require("fs");
+        let authors = JSON.parse(fs.readFileSync("_data/authors.json"));
+        let postAuthors = collections.all.map(post => post.author).filter(author => !authors.find(a2 => a2.name == author));
+        authors = authors.concat(postAuthors);
+        return authors;
+    },
+    "alias": "authordata",
+    "size": 1
+  },
+  "layout": "base",
+  "tags": "issue",
+  "eleventyComputed": {
+    "title": "{{ athordata.name }}",
+    "author": "{{ authordata.name }}"
+  },
+  "permalink": "authors/{{ authordata.name | slugify }}/"
+}
 ---
 <h1>{{ authordata.name }}</h1>
 <p>{{ authordata.bio }}</p>
