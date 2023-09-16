@@ -21,9 +21,9 @@
   },
   layout: "base",
   tags: "author",
-  eleventyComputed": {
-    title: authordata.name,
-    author: authordata.name"
+  eleventyComputed: {
+    title: "{{ authordata.name }}",
+    author:  "{{ authordata.name }}"
   },
   "permalink": "authors/{{ authordata.name | slugify }}/"
 }
