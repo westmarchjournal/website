@@ -5,14 +5,9 @@
         const fs = require("fs")
         let authors = JSON.parse(fs.readFileSync("_data/authors.json"))
         console.log(authors)
-        let postAuthors = collections.all.map(post => post.author).filter(author => !authors.find(a2 => a2.name == author))
+        let postAuthors = collections.all.map(post => {"name": post.author}).filter(author => !authors.find(a2 => a2.name == author))
         console.log(postAuthors)
-        let postAuthorArray = []
-        for (let a of postAuthors) {
-            authordata = { "name": a }
-            postAuthorArray.push(authordata)
-        }
-        authors = authors.concat(postAuthorArray)
+        authors = authors.concat(postAuthors)
         console.log(authors)
         return authors
     },
