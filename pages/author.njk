@@ -1,11 +1,11 @@
 ---js
 {
   pagination: {
-    data: function(){
+    data: function () {
         const fs = require("fs")
         let authors = JSON.parse(fs.readFileSync("_data/authors.json"))
         console.log(authors)
-        let postAuthors = collections.all.map(post => {"name": post.author}).filter(author => !authors.find(a2 => a2.name == author["name"]))
+        let postAuthors = collections.all.map(function(post) { return {"name": post.author}}).filter(author => !authors.find(a2 => a2.name == author["name"]))
         console.log(postAuthors)
         authors = authors.concat(postAuthors)
         console.log(authors)
