@@ -2,12 +2,13 @@
 {
   pagination: {
     data: function() {
+        console.log(data.collections.all)
         const fs = require("fs")
         let authors = JSON.parse(fs.readFileSync("_data/authors.json"))
         console.log(authors)
-        let postAuthors = collections.all.map(
+        let postAuthors = data.collections.all.map(
             function(post) {
-                return {"name": post.author}
+                return {"name": post.data.author}
                 }
             )
             .filter(author => !authors.find(a2 => a2.name == author["name"]))
