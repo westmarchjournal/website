@@ -1,36 +1,48 @@
----js
+---js 
 {
-  pagination: {
-    data: function() {
-        console.log(data.collections.all)
-        const fs = require("fs")
-        let authors = JSON.parse(fs.readFileSync("_data/authors.json"))
-        console.log(authors)
-        let postAuthors = data.collections.all.map(
-            function(post) {
-                return {"name": post.data.author}
-                }
-            )
-            .filter(author => !authors.find(a2 => a2.name == author["name"]))
-        console.log(postAuthors)
-        authors = authors.concat(postAuthors)
-        console.log(authors)
-        return authors
+    layout: "base",
+    pagination: {
+        data: "authors",
+        alias: "authordata",
+        size: 1,
+        before: function(jsonAuthors, fullData) {
+            const fs = require("fs")
+            // let jsonAuthors = JSON.parse(fs.readFileSync("_data/authors.json"))
+            const postAuthors = fullData.collections.all
+                .map(function(post) {
+                    return { "name": post.data.author }
+                })
+                .filter(author => !!author.name)
+
+            const authors = [...jsonAuthors, ...postAuthors]
+            /* const [uniqueAuthors, _] = authors.reduce(function([uniqueAuthorList, index], author) {
+                if (index[author.name]) return uniqueAuthorList;
+
+                index[author.name] = true
+                return [[...uniqueAuthorList, author], index]
+            }, [[], {}]) */
+
+            let uniqueAuthors = [];
+            let index = {};
+            for (const author of authors) {
+                if (index[author.name]) continue;
+                index[author.name] = true;
+                uniqueAuthors.push(author)
+            }
+            console.log("added authors together:")
+            console.log(authors)
+            return uniqueAuthors
+        },
     },
-    alias: "authordata",
-    size: 1
-  },
-  layout: "base",
-  tags: "author",
-  eleventyComputed: {
-    title: "{{ authordata.name }}",
-    author:  "{{ authordata.name }}"
-  },
-  "permalink": "authors/{{ authordata.name | slugify }}/"
+    eleventyComputed: {  
+        title : "{{ authordata.name }}",
+        author: "{{ authordata.name }}"
+    },
+    permalink: "authors/{{ authordata.name | slugify }}/",
+    eleventyExcludeFromCollections: true
 }
 ---
 <h1>{{ authordata.name }}</h1>
-<p>{{ authordata.bio }}</p>
 
 {% set postlist = collections["article"] %}
 <ul reversed class="postlist">
