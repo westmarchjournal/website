@@ -1,7 +1,7 @@
 ---
 title: Editorial Staff
 layout: base
-permalink: "/Staff/"
+permalink: "/staff/"
 ---
 # Editorial Staff
 ## Lauren Crane, Editor-in-Chief
