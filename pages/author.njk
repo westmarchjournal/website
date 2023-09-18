@@ -1,0 +1,63 @@
+---js 
+{
+    layout: "base",
+    pagination: {
+        data: "authors",
+        alias: "authordata",
+        size: 1,
+        before: function(jsonAuthors, fullData) {
+            const fs = require("fs")
+            // let jsonAuthors = JSON.parse(fs.readFileSync("_data/authors.json"))
+            const postAuthors = fullData.collections.all
+                .map(function(post) {
+                    return { "name": post.data.author }
+                })
+                .filter(author => !!author.name)
+
+            const authors = [...jsonAuthors, ...postAuthors]
+            /* const [uniqueAuthors, _] = authors.reduce(function([uniqueAuthorList, index], author) {
+                if (index[author.name]) return uniqueAuthorList;
+
+                index[author.name] = true
+                return [[...uniqueAuthorList, author], index]
+            }, [[], {}]) */
+
+            let uniqueAuthors = [];
+            let index = {};
+            for (const author of authors) {
+                if (index[author.name]) continue;
+                index[author.name] = true;
+                uniqueAuthors.push(author)
+            }
+            console.log("added authors together:")
+            console.log(authors)
+            return uniqueAuthors
+        },
+    },
+    eleventyComputed: {  
+        title : "{{ authordata.name }}",
+        author: "{{ authordata.name }}"
+    },
+    permalink: "authors/{{ authordata.name | slugify }}/",
+    eleventyExcludeFromCollections: true
+}
+---
+<h1>{{ authordata.name }}</h1>
+<p>{{ authordata.bio }}</p>
+
+{% set postlist = collections["article"] %}
+<ul reversed class="postlist">
+{% for post in postlist | reverse %}
+    {% if post.data.author == authordata.name  %}
+        <li class="postlist__item">
+            <a href="{{ post.url | url }}" class="postlist__item__link">
+                {% if post.data.title %}
+                    {{ post.data.title | safe }}
+                {% else %}
+                    <code>{{ post.url }}</code>
+                {% endif %}
+            </a>
+        </li>
+    {% endif %}
+{% endfor %}
+</ul>
