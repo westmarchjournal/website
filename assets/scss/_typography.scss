@@ -42,3 +42,9 @@ blockquote {
     line-height: 1.1;
     font-weight: normal;
   }
+
+.postlist {
+    & .postlist__item {
+        list-style-type: none;
+    }
+}
