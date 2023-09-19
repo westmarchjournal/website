@@ -5,6 +5,7 @@
         data: "authors",
         alias: "authordata",
         size: 1,
+        addAllPagesToCollections: true,
         before: function(jsonAuthors, fullData) {
             const fs = require("fs")
             // WARNING: do not ask for collections.all or bad things will happen!
@@ -39,7 +40,7 @@
         author: "{{ authordata.name }}"
     },
     permalink: "authors/{{ authordata.name | slugify }}/",
-    tags: ["author"]
+    tags: ["author"],
 }
 ---
 <h1>{{ authordata.name }}</h1>
