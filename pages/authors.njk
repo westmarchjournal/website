@@ -6,7 +6,7 @@ eleventyImport:
   collections: ["author"]
 ---
 <h1>Authors</h1>
-{% set postlist = collections["author"] | sort( reverse, false, data.articlenumber ) %}
+{% set postlist = collections["author"]  | sortAuthorsByArticleNumber %}
 <ul reversed class="postlist">
 {% for post in postlist | reverse %}
         <li class="postlist__item">

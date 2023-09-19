@@ -23,26 +23,13 @@
                 index[author.name] = true;
                 uniqueAuthors.push(author)
             }
-            /* uniqueAuthors = uniqueAuthors.map(function(a) {
-                let articlenumber = fullData.collections.article.filter(
-                    function(article) { 
-                        console.log(a)
-                        return article.data.author === a }
-                    ).length()
-                return { 
-                    "name": a.name,
-                    "bio": a.bio,
-                    "articlenumber": articlenumber
-                }
-            })*/
-            console.log(uniqueAuthors)
             return uniqueAuthors
         },
     },
     eleventyComputed: {  
         title : "{{ authordata.name }}",
         author: "{{ authordata.name }}",
-        articlenumber: `{{ authordata.articlenumber }}`
+        articlenumber: `{{ collections.article | filterByAuthor( authordata.name ) | length}}`
     },
     permalink: "authors/{{ authordata.name | slugify }}/",
     tags: ["author"]

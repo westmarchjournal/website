@@ -33,6 +33,12 @@ module.exports = function(eleventyConfig) {
     let product = collection.filter((article) => article.data.author === author )
     return product
   });
+  eleventyConfig.addFilter("sortAuthorsByArticleNumber", function(collection) {
+    let product = collection.sort((a, b) => {
+      return Number(a.data.articlenumber) - Number(b.data.articlenumber)
+    })
+    return product
+  });
 
   // shortcodes 
   eleventyConfig.addShortcode("ytEmbed", require("./_11ty/ytEmbed.js"));
