@@ -29,6 +29,11 @@ module.exports = function(eleventyConfig) {
       let product = striptags(value);
       return product;
   });
+  eleventyConfig.addFilter("filterByAuthor", function(collection, author) {
+    collection.forEach((article) => console.log(article.data["author"]))
+    let product = collection.filter((article) => article.data.author === author )
+    return product
+  });
 
   // shortcodes 
   eleventyConfig.addShortcode("ytEmbed", require("./_11ty/ytEmbed.js"));
