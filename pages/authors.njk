@@ -1,0 +1,22 @@
+---
+title: Authors
+permalink: "/authors/"
+layout: base
+eleventyImport:
+  collections: ["author"]
+---
+<h1>Authors</h1>
+{% set postlist = collections["author"] %}
+<ul reversed class="postlist">
+{% for post in postlist | reverse %}
+        <li class="postlist__item">
+            <a href="{{ post.url | url }}" class="postlist__item__link">
+                {% if post.data.title %}
+                    {{ post.data.title | safe }}
+                {% else %}
+                    <code>{{ post.url }}</code>
+                {% endif %}
+            </a>
+        </li>
+{% endfor %}
+</ul>

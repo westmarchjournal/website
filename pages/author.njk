@@ -5,10 +5,11 @@
         data: "authors",
         alias: "authordata",
         size: 1,
+        addAllPagesToCollections: true,
         before: function(jsonAuthors, fullData) {
             const fs = require("fs")
-            // let jsonAuthors = JSON.parse(fs.readFileSync("_data/authors.json"))
-            const postAuthors = fullData.collections.all
+            // WARNING: do not ask for collections.all or bad things will happen!
+            const postAuthors = fullData.collections.article
                 .map(function(post) {
                     return { "name": post.data.author }
                 })
@@ -39,7 +40,7 @@
         author: "{{ authordata.name }}"
     },
     permalink: "authors/{{ authordata.name | slugify }}/",
-    eleventyExcludeFromCollections: true
+    tags: ["author"],
 }
 ---
 <h1>{{ authordata.name }}</h1>
