@@ -1,8 +1,8 @@
 ---
-name: Catie Anne
+name: Caitie Anne
 surname: Banks
 title: Marne of the Elves
-authordescription: Catie Anne is a sophomore History major from North Carolina.
+authordescription: Caitie Anne is a sophomore History major from North Carolina.
 tags: ["fiction"]
 permalink: "/3/3/marne-of-the-elves/"
 ---
