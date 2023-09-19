@@ -30,7 +30,6 @@ module.exports = function(eleventyConfig) {
       return product;
   });
   eleventyConfig.addFilter("filterByAuthor", function(collection, author) {
-    collection.forEach((article) => console.log(article.data["author"]))
     let product = collection.filter((article) => article.data.author === author )
     return product
   });

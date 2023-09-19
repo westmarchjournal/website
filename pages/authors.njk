@@ -6,7 +6,7 @@ eleventyImport:
   collections: ["author"]
 ---
 <h1>Authors</h1>
-{% set postlist = collections["author"] %}
+{% set postlist = collections["author"] | sort( reverse, false, data.articlenumber ) %}
 <ul reversed class="postlist">
 {% for post in postlist | reverse %}
         <li class="postlist__item">
@@ -16,8 +16,8 @@ eleventyImport:
                 {% else %}
                     <code>{{ post.url }}</code>
                 {% endif %}
-                {% set number = collections["article"] | filterByAuthor(post.data.title) | length %}
-                &nbsp; ({{ number }} article{% if number != 1 %}s{% endif %})
+                {% set number = post.data.articlenumber %}
+                &nbsp;({{ number }} article{% if number != 1 %}s{% endif %})
             </a>
         </li>
 {% endfor %}

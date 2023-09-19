@@ -16,13 +16,6 @@
                 .filter(author => !!author.name)
 
             const authors = [...jsonAuthors, ...postAuthors]
-            /* const [uniqueAuthors, _] = authors.reduce(function([uniqueAuthorList, index], author) {
-                if (index[author.name]) return uniqueAuthorList;
-
-                index[author.name] = true
-                return [[...uniqueAuthorList, author], index]
-            }, [[], {}]) */
-
             let uniqueAuthors = [];
             let index = {};
             for (const author of authors) {
@@ -30,14 +23,26 @@
                 index[author.name] = true;
                 uniqueAuthors.push(author)
             }
-            console.log("added authors together:")
-            console.log(authors)
+            /* uniqueAuthors = uniqueAuthors.map(function(a) {
+                let articlenumber = fullData.collections.article.filter(
+                    function(article) { 
+                        console.log(a)
+                        return article.data.author === a }
+                    ).length()
+                return { 
+                    "name": a.name,
+                    "bio": a.bio,
+                    "articlenumber": articlenumber
+                }
+            })*/
+            console.log(uniqueAuthors)
             return uniqueAuthors
         },
     },
     eleventyComputed: {  
         title : "{{ authordata.name }}",
-        author: "{{ authordata.name }}"
+        author: "{{ authordata.name }}",
+        articlenumber: `{{ authordata.articlenumber }}`
     },
     permalink: "authors/{{ authordata.name | slugify }}/",
     tags: ["author"]
