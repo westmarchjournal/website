@@ -1,6 +1,6 @@
 ---
 name: Kelly
-Surname: Freestone
+surname: Freestone
 authordescription: Kelly is a PHC alumna who graduated in 2020. She majored in Classical Liberal Arts.
 title: Extended Description of <i>Georgics</i> Translation
 tags: ["web exclusive"]
