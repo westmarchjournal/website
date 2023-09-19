@@ -40,25 +40,23 @@
         author: "{{ authordata.name }}"
     },
     permalink: "authors/{{ authordata.name | slugify }}/",
-    tags: ["author"],
+    tags: ["author"]
 }
 ---
 <h1>{{ authordata.name }}</h1>
 <p>{{ authordata.bio }}</p>
 
-{% set postlist = collections["article"] %}
+{% set postlist = collections["article"] | filterByAuthor( authordata.name ) %}
 <ul reversed class="postlist">
 {% for post in postlist | reverse %}
-    {% if post.data.author == authordata.name  %}
-        <li class="postlist__item">
-            <a href="{{ post.url | url }}" class="postlist__item__link">
-                {% if post.data.title %}
-                    {{ post.data.title | safe }}
-                {% else %}
-                    <code>{{ post.url }}</code>
-                {% endif %}
-            </a>
-        </li>
-    {% endif %}
+    <li class="postlist__item">
+        <a href="{{ post.url | url }}" class="postlist__item__link">
+            {% if post.data.title %}
+                {{ post.data.title | safe }}
+            {% else %}
+                <code>{{ post.url }}</code>
+            {% endif %}
+        </a>
+    </li>
 {% endfor %}
 </ul>

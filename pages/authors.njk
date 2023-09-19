@@ -16,6 +16,8 @@ eleventyImport:
                 {% else %}
                     <code>{{ post.url }}</code>
                 {% endif %}
+                {% set number = collections["article"] | filterByAuthor(post.data.title) | length %}
+                &nbsp; ({{ number }} article{% if number != 1 %}s{% endif %})
             </a>
         </li>
 {% endfor %}
