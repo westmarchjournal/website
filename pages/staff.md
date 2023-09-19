@@ -27,7 +27,7 @@ country, and spontaneous worship music. Abbie came to love
 reading as a child, and she fell in love with classic when she
 was thirteen after reading *Pride and Prejudice* for the 
 first time. Abbie appreciates rich coffee, deep conversations
-with good people, and British TV shows. Abbie is a sophomore
+with good people, and British TV shows. Abbie is a junior
 literature major, and she is most looking forward to the Lit
 Crit and Brit Lit courses.
 
@@ -37,7 +37,7 @@ Connecticut (which he firmly believes is the best state). His
 love of baroque music and Latin means that he often feels as if
 he lives in the wrong century, but he also likes being able to 
 use the Web both to read and to share writing. He is still trying
-to understand what overlap between web technology and harpsichords
+to understand what the overlap between web technology and harpsichords
 is, but he might find out what it is eventually if he keeps
 thinking about it for long enough. 
 [His duck, Scramble](https://scrambletheduck.org), is a local celebrity
