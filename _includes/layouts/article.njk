@@ -10,4 +10,6 @@ eleventyComputed:
 {% if authordescription %}
 <p class="author description">{{ authordescription }}</p>
 {% endif %}
+{% if collections.article | filterByAuthor( author ) | length > 1 %}
 <p><a href="/authors/{{ author | slugify }}">Read more of this author's articles.</a></p>
+{% endif %}
