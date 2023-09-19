@@ -29,7 +29,7 @@
     eleventyComputed: {  
         title : "{{ authordata.name }}",
         author: "{{ authordata.name }}",
-        articlenumber: `{{ collections.article | filterByAuthor( authordata.name ) | length}}`
+        articlenumber: `{{ collections.article | filterByAuthor( authordata.name ) | length }}`
     },
     permalink: "authors/{{ authordata.name | slugify }}/",
     tags: ["author"]
@@ -52,3 +52,4 @@
     </li>
 {% endfor %}
 </ul>
+<p><a href="/authors">See all authors.</a></p>
