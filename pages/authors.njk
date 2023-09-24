@@ -2,8 +2,6 @@
 title: Authors
 permalink: "/authors/"
 layout: base
-eleventyImport:
-  collections: ["author"]
 ---
 <h1>Authors</h1>
 {% set postlist = collections["author"]  | sortAuthorsByArticleNumber %}
@@ -11,11 +9,7 @@ eleventyImport:
 {% for post in postlist | reverse %}
         <li class="postlist__item">
             <a href="{{ post.url | url }}" class="postlist__item__link">
-                {% if post.data.title %}
                     {{ post.data.title | safe }}
-                {% else %}
-                    <code>{{ post.url }}</code>
-                {% endif %}
                 {% set number = post.data.articlenumber %}
                 &nbsp;({{ number }} article{% if number != 1 %}s{% endif %})
             </a>
