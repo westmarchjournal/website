@@ -6,30 +6,85 @@ permalink: "/staff/"
 # Editorial Staff
 
 ## Kaitlyn Tully, Editor-in-Chief
-
 Content editor (2022-2023)
 
 Kaitlyn Tully is a senior Literature and APP major at PHC. 
-Her childhood in Florida consisted primarily of exploring
-different mediums of storytelling including poetry, plays,
-short stories, and novels. She has always found great joy
+Her childhood in Florida consisted primarily of exploring 
+different mediums of storytelling including poetry, plays, 
+short stories, and novels. She has always found great joy 
 in reading classic literature and in writing her own stories. 
-Admittedly, her very first character "JEmma" did not last very
-long (her attempt at spelling Jenna was thwarted by the limited
-letter stickers in her possession). This traumatic instance
+Admittedly, her very first character “JEmma” did not last very 
+long (her attempt at spelling Jenna was thwarted by the limited 
+letter stickers in her possession). This traumatic instance 
 likely influenced her now severe disdain at naming characters. 
+She has since switched primarily to literary criticism (mostly 
+because there is no requirement to invent character names), 
+and hopes to pursue a PhD in Literature along with a law degree next year.
 
 ## Abbie Mourey, Content Editor
-Abbie Mourey was born and raised in New York's Southern Tier
-region. When she's not reading, you can find Abbie listening
-(and badly dancing) to an assortment of jazz, classical, pop,
-country, and spontaneous worship music. Abbie came to love
-reading as a child, and she fell in love with classic when she
-was thirteen after reading *Pride and Prejudice* for the 
-first time. Abbie appreciates rich coffee, deep conversations
-with good people, and British TV shows. Abbie is a junior
-literature major, and she is most looking forward to the Lit
-Crit and Brit Lit courses.
+Abbie was born and raised in New York’s Southern Tier 
+region. Her delight in books began as a child, while reading 
+chapter books with her dad. Abbie’s love for classics was 
+ignited after she read Pride and Prejudice for the first 
+time at the age of thirteen. When she’s not working on a
+paper, you can find Abbie drinking coffee, taking long walks, a
+nd watching British TV shows. Abbie is a junior Literature 
+major, and she is most looking forward to Lit Crit and Directed
+Research Writing projects.
+
+## Faith Thompson, Content Editor
+Faith Thompson penned her earliest story at the age of four, 
+recasting her despised preschool teacher into a heinous villain. 
+Since then, she has employed the art of storytelling to throw 
+light into dark places and provide some much-needed personal 
+therapy. She is a senior Literature major with a minor in history, 
+and her favorite kind of scholarship is at the intersection of 
+those two disciplines. In the future, she plans to edit fiction 
+for a living while trying to write the next great American novel. 
+
+## Grace Johnson, Content Editor
+Grace Johnson is a senior literature major from California. 
+Even as a child she loved getting lost in a riveting story, 
+from her childhood adventures with the Boxcar Children to her 
+middle school quests with the Fellowship of the Ring. She 
+scribbled her first short stories on colored construction 
+paper (complete with her own stick figure illustrations), 
+but it wasn’t until college that she began to pursue writing 
+more seriously. Her favorite aspect of stories is their power to
+shape hearts and minds for the better. When not reading or 
+writing, she enjoys buying armloads of used books, hanging out 
+with her friends, and listening to music.
+
+
+## Julia Adams, Content Editor
+Julia is a junior majoring in English. As a child, she 
+loved reading books and would finish them often in less 
+than two days. Her family often called her a bookworm, 
+which she whole heartedly embraced. One Christmas, 
+Julia received an annotated version of Jane Austen’s Pride and
+Prejudice and fell in love with the idea of literary analysis 
+and delving into the historical and literary contexts 
+of other works. When not reading, Julia is writing, 
+drinking coffee with a friend, dancing, or spending time in the Word.
+
+## Bethany Kawalec, Content Editor
+Bethany is a storyteller and a traveler in what Tolkien calls 
+the world of Faerie. Ever she since she could speak, she 
+would regale her family with tales that lasted for hours, filled
+with complex character arcs and subplots. Although she has 
+(hopefully) gotten better at listening, too, her imagination 
+is just as active. She also loves losing herself in a good book, 
+where she meets new friends, adventures in strange faraway 
+lands, and enjoys any and all descriptions of feasts and beautiful 
+clothes. She also loves to write. Her dream is to become a 
+best-selling author. Her favorite authors include C. S. Lewis,
+Tolkien, Dickens, and Jack London. Becoming at Literature major 
+was just a natural next step to fostering her passion for stories. 
+When she’s not reading or writing, Bethany enjoys spending time 
+with friends, hiking with her German Shepherds, swing dancing, 
+and doing art.
+
+
 
 ## Micah Torcellini, Web Editor
 Micah Torcellini is a senior Classical Liberal Arts major from
