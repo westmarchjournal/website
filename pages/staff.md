@@ -104,7 +104,7 @@ He also occasionally puts non-*Westmarch* writing on
 # Staff Emeriti 
 
 ## Lauren Crane, Editor-in-Chief (2022-2023)
-Lauren is a senior majoring in literature. Although
+Lauren (class of 2023) majored in literature. Although
 she was an avid reader as a child, Lauren developed
 her love for British literature after reading Jane
 Austen in high school. Her literary kindred spirit
@@ -115,7 +115,7 @@ the literature major. After graduation, Lauren hopes
 to share her love for literature by teaching. 
 
 ## Anna Fox, Content Editor (2022-2023)
-When Anna was small, she would hide in corners so that 
+When Anna (class of 2023) was small, she would hide in corners so that 
 she could read instead of doing her homework. She has
 always loved stories, both reading them and writing them.
 At PHC, she is a literature major, which is nice, because
@@ -124,7 +124,7 @@ She is a senior, and hopes to someday help other children
 find the same love for storytelling that she has. 
 
 ## Elyse Burgess, Layout Editor (2022-2023)
-Elyse Burgess is a senior Classical Liberal Arts major with a
+Elyse Burgess Classical Liberal Arts major (class of 2023) with a
 Journalism minor who is so used to getting mistaken for a 
 Literature major that she joined the Westmarch team to confuse
 people even more. She loves bringing the beauty and order
