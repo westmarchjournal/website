@@ -1,0 +1,20 @@
+{
+    "volume": 4,
+    "issue": 1,
+    "date": "2023-11-01",
+    "issueTitle": "All Saints and Angels",
+    "color": "#e58f16",
+    "articleCategories": ["poetry", "criticism"],
+    "editors": [
+        {"role": "Editor-in-Chief", "name": "Kaitlyn Tully"},
+        {"role": "Content Editor", "name": "Abbie Mourey"},
+        {"role": "Content Editor", "name": "Faith Thompson"},
+        {"role": "Content Editor", "name": "Grace Johnson"},
+        {"role": "Content Editor", "name": "Julia Adams"},
+        {"role": "Content Editor", "name": "Bethany Kawalec"},
+        {"role": "Web Editor", "name": "Micah Torcellini"}
+    ],
+    "quote": "All knees shall bow to thee; all wits shall rise,<br>And praise him who did make and mend our eies.",
+    "quoteSource": "Love (II) by George Herbert",
+    "letterurl": "from-the-editor"
+}
