@@ -6,7 +6,7 @@ permalink: "/"
 <h1>Westmarch</h1>
 <p>A Literary Journal</p>
 {% set issues = fetchIssues  %}
-{% for issue in issues %}
+{% for issue in issues | reverse %}
     <article>
         <h2><a href="/{{ issue.volume }}/{{ issue.issue }}/">
             vol. {{ issue.volume }}, no. {{ issue.issue }}: {{ issue.issueTitle }}</a></h2>
