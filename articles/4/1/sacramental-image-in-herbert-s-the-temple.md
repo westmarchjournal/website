@@ -51,8 +51,8 @@ life itself. He advises the "sweet youth" to whom the poem is addressed:
 > For all the week thy food so oft he gave thee.\
 > Thy cheer is mended; bate not of the food,\
 > Because 'tis better, and perhaps may save thee.\
-> &tab;Thwart not th' Almighty God: O be not cross.\
-> &tab;Fast when thou wilt but then, 'tis gain, not loss. (391-396)
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thwart not th' Almighty God: O be not cross.\
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fast when thou wilt but then, 'tis gain, not loss. (391-396)
 
 The explicit advice given in these lines refers most probably not to the
 sacrament of the Eucharist itself, the food references notwithstanding,
@@ -219,11 +219,11 @@ the Jews who demanded his crucifixion, he says,
 > Yet still they shout, and cry, and stop their ears,\
 > Putting my life among their sins and fears,\
 > And therefore wish *my blood on them and theirs:*\
-> &tab;Was ever grief like mine?\
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Was ever grief like mine?\
 > See how spite cankers things. These words aright\
 > Used, and wished, are the whole world's light:\
 > But honey is their gall, brightness their night:\
-> &tab;Was ever grief like mine? (105-112)\
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Was ever grief like mine? (105-112)\
 
 There are a couple of sacramental truths that are illustrated in the
 passage. One is the way that the words of the Jews contain a sacramental
@@ -248,7 +248,7 @@ imagery of the Cross:
 > *O all ye who pass by, behold and see;*\
 > Man stole the fruit, but I must climb the tree;\
 > The tree of life to all, but only me :\
-> &tab;Was ever grief like mine?
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Was ever grief like mine?
 
 In this stanza, the image of the "tree" passes fluidly from the Tree of
 the Knowledge of Good and Evil to the Cross to the Tree of Life. The
