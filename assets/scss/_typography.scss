@@ -17,8 +17,10 @@ hr::after {
     content: " ☙ ✾ ❧ "
 }
 
-main {
-    text-align: justify;
+p {
+    @media (min-width: 50em) {
+        text-align: justify;
+    }
 }
 
 main * {
