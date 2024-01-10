@@ -11,18 +11,22 @@ ytEmbed: link
 	<link href="{{ metadata.url }}"/>
 	<updated>{{ collections.articles | rssLastUpdatedDate }}</updated>
 	<id>{{ metadata.url }}</id>
-	{%- for post in collections.article.slice(0, 25) %}
-	{% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
-	<entry>
-		<title>{{ post.data.title | striptags }}</title>
-		<link href="{{ absolutePostUrl }}"/>
-		<updated>{{ post.date | rssDate }}</updated>
-		<id>{{ absolutePostUrl }}</id>
-		<author><name>{{ post.data.author }}</name></author>
-		<content type="html">
-			{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
-			&lt;p&gt;&lt;a href="{{ absolutePostUrl }}"&gt;This article originally appeared at {{ metadata.citationurl }}.&lt;/a&gt;&lt;/p&gt;
-		</content>
-	</entry>
+	{%- for post in collections.article | reverse %}
+	{# maybe I can use this later to limit by issue #}
+	{% if loop.index0 < 25 %}
+	{% set currentissue %}{{ post.data.volume }}.{{ post.data.issue }}{% endset %}	
+		{% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+		<entry>
+			<title>{{ post.data.title | striptags }}</title>
+			<link href="{{ absolutePostUrl }}"/>
+			<updated>{{ post.date | rssDate }}</updated>
+			<id>{{ absolutePostUrl }}</id>
+			<author><name>{{ post.data.author }}</name></author>
+			<content type="html">
+				{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+				&lt;p&gt;&lt;a href="{{ absolutePostUrl }}"&gt;This article originally appeared at {{ metadata.citationurl }}.&lt;/a&gt;&lt;/p&gt;
+			</content>
+		</entry>
+	{% endif %}
 	{%- endfor %}
 </feed>
