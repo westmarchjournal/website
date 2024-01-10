@@ -1,0 +1,20 @@
+{
+    "volume": 4,
+    "issue": 2,
+    "date": "2023-11-01",
+    "issueTitle": "Laughter and Good Humor",
+    "color": "#a7fb89",
+    "articleCategories": ["poetry", "narrative", "criticism", "fiction", "special features"],
+    "editors": [
+        {"role": "Editor-in-Chief", "name": "Kaitlyn Tully"},
+        {"role": "Content Editor", "name": "Abbie Mourey"},
+        {"role": "Content Editor", "name": "Faith Thompson"},
+        {"role": "Content Editor", "name": "Grace Johnson"},
+        {"role": "Content Editor", "name": "Julia Adams"},
+        {"role": "Content Editor", "name": "Bethany Kawalec"},
+        {"role": "Web Editor", "name": "Micah Torcellini"}
+    ],
+    "quote": "There is nothing in the world so irresistibly contagious as laughter and good humor.",
+    "quoteSource": "<i>A Christmas Carol</i>, Charles Dickens",
+    "letterurl": "from-the-editor"
+}
