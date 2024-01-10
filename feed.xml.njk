@@ -11,7 +11,7 @@ ytEmbed: link
 	<link href="{{ metadata.url }}"/>
 	<updated>{{ collections.articles | rssLastUpdatedDate }}</updated>
 	<id>{{ metadata.url }}</id>
-	{%- for post in collections.article %}
+	{%- for post in collections.article.slice(0, 25) %}
 	{% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
 	<entry>
 		<title>{{ post.data.title | striptags }}</title>
