@@ -2,7 +2,7 @@
 name: Elsie
 surname: Hake
 title: "What is Joy"
-authordescription: Elsie is a freshman Literature s major from West Virginia.
+authordescription: Elsie is a freshman Literature major from West Virginia.
 tags: ["poetry"]
 permalink: "/4/2/what-is-joy/"
 ---

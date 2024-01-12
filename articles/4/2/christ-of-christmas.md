@@ -33,11 +33,11 @@ Who came---you must remind them!---\
 The inner veil to rip.
 
 So how will you remember\
-When <span style="font-variant-caps: small-caps">I am<\span> wore the veil\
+When <span style="font-variant-caps: small-caps">I am</span> wore the veil\
 Of weakest human flesh?\
 Rehearse the timeless tale.
 
 Rebuild the old tradition\
 Of walking through the past,\
 For only Christ of Christmas\
-Is sure to live and last.\
+Is sure to live and last.
