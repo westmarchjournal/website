@@ -24,6 +24,9 @@ ytEmbed: link
 			<author><name>{{ post.data.author }}</name></author>
 			<content type="html">
 				{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+				{% if post.data.authordescription %}
+					&lt;p&gt;&lt;i&gt;{{ post.data.authordescription }}&lt;/i&gt;&lt;/p&gt;
+				{% endif %}
 				&lt;p&gt;&lt;a href="{{ absolutePostUrl }}"&gt;This article originally appeared at {{ metadata.citationurl }}.&lt;/a&gt;&lt;/p&gt;
 			</content>
 		</entry>
