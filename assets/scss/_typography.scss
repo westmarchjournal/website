@@ -1,6 +1,8 @@
 @use "variables" as *;
 @use "layout" as *;
-$body-text: Georgia, serif;
+@use "fonts" as *;
+
+$body-text: "EB Garamond", Garamond, Georgia, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", serif;
 
 * {
     font-family: $body-text;
