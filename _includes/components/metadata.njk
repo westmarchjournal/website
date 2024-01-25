@@ -18,13 +18,13 @@
 <meta property="og:image" content="{{ metadata.url }}{{ card or image or metadata.image }}">
 <meta property="og:type" content="website" >
 <link rel="canonical" href="{{ page.url | url | absoluteUrl(metadata.url) }}" >
-<meta name="keywords" content="{{ tags }}">
+<meta name="keywords" content="{{ metadata.keywords + "," + tags }}">
 <meta name="author" content="{{ author or metadata.author.name }}">
 
 {# see https://scholar.google.com/intl/en/scholar/inclusion.html#indexing #}
 
 <meta name="citation_title" content="{{ title }}">
-<meta name="citation_author" content="{{ citationAuthor }}">
+<meta name="citation_author" content="{{ citationAuthor or metadata.author.name }}">
 <meta name="citation_publication_date" content="{{ page.date | year }}">
 <meta name="citation_journal_title" content="{{ metadata.title | title}}">
 <meta name="citation_volume" content="{{ volume }}">
