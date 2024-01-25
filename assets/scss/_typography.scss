@@ -4,6 +4,9 @@
 
 $body-text: "EB Garamond", Garamond, Georgia, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", serif;
 
+body {
+    font-size: 1.2rem;
+}
 * {
     font-family: $body-text;
     color: $text-color;
@@ -26,7 +29,7 @@ p {
 }
 
 main * {
-    line-height: 2;
+    line-height: 1.5em;
 }
 
 a {
