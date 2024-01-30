@@ -11,6 +11,7 @@
     "markdown-it-attrs": "^4.1.6",
     "markdown-it-deflist": "^2.1.0",
     "markdown-it-footnote": "^3.0.3",
+    "rfs": "^10.0.0",
     "sass": "^1.58.3",
     "slugify": "^1.6.5",
     "striptags": "^3.2.0"
