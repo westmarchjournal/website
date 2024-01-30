@@ -3,8 +3,6 @@
 @use "mixins" as *;
 @use "fonts" as *;
 
-$body-text: Georgia, serif;
-
 $body-text: "EB Garamond", Garamond, Georgia, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", serif;
 
 :root {
@@ -75,8 +73,10 @@ h2 {
 }
 
 .westmarch-header {
-    @include font-size(30);
-    font-variant-caps: small-caps;
+    @include font-size(45);
+    text-transform: uppercase;
+    font-family: "Bodoni Moda", Bodoni;
+    font-variation-settings: "opsz" 18;
 }
 
 
