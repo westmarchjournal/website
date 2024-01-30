@@ -4,7 +4,7 @@ $cormorant-garamond-size-adjust: 115%;
 @font-face {
     font-family: 'EB Garamond';
     src: url('/assets/fonts/ebgaramond-normal.woff2') format('woff2');
-    font-weight: normal;
+    font-style: 400 800;
     font-style: normal;
     font-display: optional;
     size-adjust: $eb-garamond-size-adjust;
@@ -14,7 +14,7 @@ $cormorant-garamond-size-adjust: 115%;
   @font-face {
     font-family: 'EB Garamond';
     src: url('/assets/fonts/ebgaramond-normal-special-characters.woff2') format('woff2');
-    font-weight: normal;
+    font-style: 400 800;
     font-style: normal;
     font-display: optional;
     size-adjust: $eb-garamond-size-adjust;
@@ -24,7 +24,7 @@ $cormorant-garamond-size-adjust: 115%;
   @font-face {
     font-family: 'EB Garamond';
     src: url('/assets/fonts/ebgaramond-italic.woff2') format('woff2');
-    font-weight: normal;
+    font-style: 400 800;
     font-style: italic;
     font-display: optional;
     size-adjust: $eb-garamond-size-adjust;
@@ -34,7 +34,7 @@ $cormorant-garamond-size-adjust: 115%;
   @font-face {
     font-family: 'EB Garamond';
     src: url('/assets/fonts/ebgaramond-italic-special-characters.woff2') format('woff2');
-    font-weight: normal;
+    font-style: 400 800;
     font-style: italic;
     font-display: optional;
     size-adjust: $eb-garamond-size-adjust;

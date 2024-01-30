@@ -1,16 +1,22 @@
 @use "variables" as *;
 @use "layout" as *;
+@use "mixins" as *;
 @use "fonts" as *;
+
+$body-text: Georgia, serif;
 
 $body-text: "EB Garamond", Garamond, Georgia, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", serif;
 
-body {
+:root {
     font-size: 1.2rem;
-}
-* {
     font-family: $body-text;
     color: $text-color;
     line-height: 1;
+}
+body {
+    // branding guidelines say to use 500 weight
+    font-weight: 400;
+    @include font-size(11);
 }
 
 hr {
@@ -49,10 +55,20 @@ blockquote {
     quotes: "\201C""\201D""\2018""\2019";
   }
 
-  h1, h2, h3 {
-    line-height: 1.1;
-    font-weight: normal;
-  }
+h1, h2, h3 {
+line-height: 1.1;
+}
+
+h1 {
+    @include font-size(20);
+    font-weight: 500;
+}
+
+h2 {
+    @include font-size(15);
+    font-weight: 500;
+}
+
 
 .postlist {
     & .postlist__item {
