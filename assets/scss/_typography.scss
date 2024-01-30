@@ -69,6 +69,16 @@ h2 {
     font-weight: 500;
 }
 
+.subtitle {
+    @include font-size(15);
+    font-weight: 600;
+}
+
+.westmarch-header {
+    @include font-size(30);
+    font-variant-caps: small-caps;
+}
+
 
 .postlist {
     & .postlist__item {
