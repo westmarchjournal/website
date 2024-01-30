@@ -15,7 +15,7 @@
 <meta property="og:title" content="{{ title }}">
 <meta property="og:description" content="{{ renderData.description or description or metadata.description }}">
 <meta property="og:url" content="{{ page.url | url | absoluteUrl(metadata.url) }}">
-<meta property="og:image" content="{{ metadata.url }}{{ card or image or metadata.image }}">
+<meta property="og:image" content="{{ card or image or metadata.image | url |absoluteUrl(metadata.url) }}">
 <meta property="og:type" content="website" >
 <link rel="canonical" href="{{ page.url | url | absoluteUrl(metadata.url) }}" >
 <meta name="keywords" content="{{ tags }}">
