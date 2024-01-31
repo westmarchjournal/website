@@ -19,7 +19,7 @@
     <meta property="og:image" content="{{ card or image or metadata.image | url |absoluteUrl(metadata.url) }}">
 {% else %}
     {% setAsync "ogOutputUrl" -%}
-        {% ogImage "./og-image.og.njk", { title: "Hello world" } %}
+        {% ogImage "./og-image.og.njk", { title: title, author: author, description: description } %}
     {%- endsetAsync %}
     <!-- {{ ogOutputUrl }}-->
     <meta property="og:image" href="{{ ogOutputUrl | url | absoluteUrl(metadata.url) }}">
