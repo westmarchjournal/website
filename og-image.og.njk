@@ -5,16 +5,39 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background: linear-gradient(135deg, #ef629f, #eecda3);
+        background-color: {{ color }};
+        {# warning: this must be an absolute URL #}
+        background-image: url("{{ image }}");
     }
     .title {
-        color: white;
-        font-size: 80px;
+        font-size: {{ 2000 / title.length }}px;
+    }
+    .author {
+        font-size: 100px;
+    }
+    .tagline {
+        font-size: {% if 2000 / title.length > 100  %}50px{% else %}{{ 2000 / title.length }}{% endif %}
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin: auto 0;
     }
+    .container * {
+        margin: 0;
+    }
+
 </style>
 <div class="root">
-    <h1 class="title">{{ title | safe }}</h1>
-    <p>{{ author | safe }}</p>
-    <p>{{ description | safe }}</p>
+    <div class="container">
+        <h1 class="title">{{ title | safe }}</h1>
+        <p class="author">
+            {{ author | safe }}
+        </p>
+        <p class="tagline">
+            {% if issue and volume %}Westmarch vol. {{ volume }}, no. {{ issue }}{% endif %}
+        </p>
+        <p class="description">{{ description | safe }}</p>
+    </div>
 </div>
