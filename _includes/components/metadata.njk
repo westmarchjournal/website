@@ -21,7 +21,6 @@
     {% setAsync "ogOutputUrl" -%}
         {% ogImage "./og-image.og.njk", { title: title, author: author, description: description } %}
     {%- endsetAsync %}
-    <!-- {{ ogOutputUrl }}-->
     <meta property="og:image" href="{{ ogOutputUrl | url | absoluteUrl(metadata.url) }}">
 {% endif %}
 <meta property="og:type" content="website" >

@@ -14,7 +14,7 @@
     }
 </style>
 <div class="root">
-    <h1 class="title">{{ title }}</h1>
-    <p>{{ author }}</p>
-    <p>{{ description }}</p>
+    <h1 class="title">{{ title | safe }}</h1>
+    <p>{{ author | safe }}</p>
+    <p>{{ description | safe }}</p>
 </div>
