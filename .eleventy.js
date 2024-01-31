@@ -64,7 +64,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets/css");
   eleventyConfig.addPassthroughCopy("assets/files");
   eleventyConfig.addPassthroughCopy("assets/fonts");
-  eleventyConfig.addPassthroughCopy("assets/images/site");
+  eleventyConfig.addPassthroughCopy("assets/images");
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPassthroughCopy("favicon.ico");
