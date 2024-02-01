@@ -2,9 +2,10 @@
 title: Westmarch
 layout: base
 permalink: "/"
+card: "/assets/images/og-image-3.png"
 ---
-<h1>Westmarch</h1>
-<p>A Literary Journal</p>
+<h1 class="westmarch-header">Westmarch</h1>
+<p class="subtitle">A Literary Journal</p>
 {% set issues = fetchIssues  %}
 {% for issue in issues | reverse %}
     <article>

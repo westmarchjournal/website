@@ -1,11 +1,20 @@
 @use "variables" as *;
 @use "layout" as *;
-$body-text: Georgia, serif;
+@use "mixins" as *;
+@use "fonts" as *;
 
-* {
+$body-text: "EB Garamond", Garamond, Georgia, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", serif;
+
+:root {
+    font-size: 1.2rem;
     font-family: $body-text;
     color: $text-color;
     line-height: 1;
+}
+body {
+    // branding guidelines say to use 500 weight
+    font-weight: 400;
+    @include font-size(11);
 }
 
 hr {
@@ -24,7 +33,7 @@ p {
 }
 
 main * {
-    line-height: 2;
+    line-height: 1.5em;
 }
 
 a {
@@ -37,6 +46,7 @@ i, em {
 
 .header, footer {
     --text-color: var(--color-light);
+    line-height: 1.5em;
 }
 
 blockquote {
@@ -44,10 +54,34 @@ blockquote {
     quotes: "\201C""\201D""\2018""\2019";
   }
 
-  h1, h2, h3 {
-    line-height: 1.1;
-    font-weight: normal;
-  }
+h1, h2, h3 {
+line-height: 1.1;
+}
+
+h1 {
+    @include font-size(20);
+    font-weight: 500;
+}
+
+h2 {
+    @include font-size(15);
+    font-weight: 500;
+}
+
+.subtitle {
+    @include font-size(15);
+    font-weight: 600;
+    margin-top: 0;
+    margin-left: 1em;
+}
+
+.westmarch-header {
+    @include font-size(45);
+    text-transform: uppercase;
+    font-family: "Bodoni Moda", Bodoni;
+    font-variation-settings: "opsz" 18;
+}
+
 
 .postlist {
     & .postlist__item {

@@ -1,0 +1,7 @@
+@use "../../node_modules/rfs/scss" as rfs;
+
+@mixin font-size($size) {
+    // first we convert it from a "point" value to rem
+    $font-size: $size*(1/12)*1rem;
+    @include rfs.font-size($font-size);
+}
