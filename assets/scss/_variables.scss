@@ -1,13 +1,26 @@
+// brand colors
+$light-brown: #d5cabf;
+$dark-brown: #baa999;
+$light-beige: #f1dbca;
+$dark-beige: #d9cfb1;
+$off-white: #f4f4f2;
+$light-grey: #cbcbc7;
+$dark-grey: #8e8d89;
+$dark-red: #efa6a1;
+$light-red: #ffc7c3;
+$off-yellow: #e8c989;
+
+
 $theme-color: var(--theme-color);
 $color-light: var(--color-light);
 $color-dark: var(--color-dark);
 $text-color: var(--text-color);
 $background-color: var(--background-color);
-$header-color: #3b3b3b;
+$header-color: $dark-grey;
 
 :root {
-    --theme-color: #f0ece6;
-    --color-light: #f0ece6;
+    --theme-color: #{$dark-beige};
+    --color-light: #{$off-white};
     --color-dark: #160e00;
     --text-color: var(--color-dark);
     --background-color: var(--color-light);
