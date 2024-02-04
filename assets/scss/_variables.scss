@@ -10,7 +10,7 @@ $dark-red: #efa6a1;
 $light-red: #ffc7c3;
 $off-yellow: #e8c989;
 
-
+// CSS variables allow using inheritance to change colors for different pages. 
 $theme-color: var(--theme-color);
 $color-light: var(--color-light);
 $color-dark: var(--color-dark);
@@ -26,6 +26,7 @@ $header-color: $dark-grey;
     --background-color: var(--color-light);
 }
 
+// to make it print nicely
 @media print {
     :root {
      --theme-color: white !important;
@@ -33,6 +34,8 @@ $header-color: $dark-grey;
      --color-dark: black;
     }
 }
+
+// for dark mode--Elyse preferred not to use it. 
 // @media (prefers-color-scheme: dark) {
 //     :root {
 //         --text-color: var(--color-light);
