@@ -39,7 +39,7 @@ body {
 .header, footer {
     min-height: $header-height;
     background-color: $header-color;
-    color: $color-light;
+    color: $header-text-color;
     padding: $default-padding;
     padding: ($header-height - $text-size)/2;
 }

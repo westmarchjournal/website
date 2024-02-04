@@ -3,7 +3,8 @@ $color-light: var(--color-light);
 $color-dark: var(--color-dark);
 $text-color: var(--text-color);
 $background-color: var(--background-color);
-$header-color: #3b3b3b;
+$header-color: var(--header-color);
+$header-text-color: var(--header-text-color);
 
 :root {
     --theme-color: #f0ece6;
@@ -11,6 +12,8 @@ $header-color: #3b3b3b;
     --color-dark: #160e00;
     --text-color: var(--color-dark);
     --background-color: var(--color-light);
+    --header-color: #3b3b3b;
+    --header-text-color: var(--color-light);
 }
 
 @media print {

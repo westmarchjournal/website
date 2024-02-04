@@ -10,6 +10,21 @@
 <meta name="msvalidate.01" content="{{ metadata.msvalidate01 }}" >
 <meta name="theme-color" content="{{ issue.color or color or metadata.color }}">
 <style>:root {--theme-color: {{ issue.color or color or metadata.color }}}</style>
+<script>
+    let h = Math.random()*360;
+    let s = Math.random()*100;
+    let l = Math.random()*100;
+    let color = `hsl(${h}deg, ${s}%, ${l}%)`;
+    let colorString = `--theme-color: ${color} !important`;
+  //  document.querySelector("html").setAttribute("style", colorString)
+    let complementaryColor = `hsl(${h - 180}deg, ${s}%, ${l}%)`;
+    let complementaryColorString = `--header-color: ${complementaryColor} !important`;
+    let  headerText = `--header-text-color: var(--color-light)` 
+    if (l > 70) {
+        headerText = `--header-text-color: var(--color-dark)`;
+    };
+    document.querySelector("html").setAttribute("style", colorString + ";" + complementaryColorString + ";" + headerText);
+</script>
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:title" content="{{ title }}">
