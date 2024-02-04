@@ -10,20 +10,23 @@ $dark-red: #efa6a1;
 $light-red: #ffc7c3;
 $off-yellow: #e8c989;
 
+$dropcap: #590606;
+
 // CSS variables allow using inheritance to change colors for different pages. 
 $theme-color: var(--theme-color);
 $color-light: var(--color-light);
 $color-dark: var(--color-dark);
 $text-color: var(--text-color);
 $background-color: var(--background-color);
-$header-color: $dark-grey;
+$header-color: var(--color-dark);
 
 :root {
-    --theme-color: #{$dark-beige};
-    --color-light: #{$off-white};
-    --color-dark: #160e00;
+    --theme-color: #eecfac;
+    --color-light: #eecfac;
+    --color-dark: #261400;
     --text-color: var(--color-dark);
     --background-color: var(--color-light);
+    --dropcap-color: #{$dropcap};
 }
 
 // to make it print nicely

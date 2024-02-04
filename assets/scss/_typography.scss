@@ -3,7 +3,7 @@
 @use "mixins" as *;
 @use "fonts" as *;
 
-$body-text: "EB Garamond", Garamond, Georgia, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", serif;
+$body-text: "Uncial Antiqua", Georgia, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", serif;
 
 :root {
     font-size: 1.2rem;
@@ -56,6 +56,7 @@ blockquote {
 
 h1, h2, h3 {
 line-height: 1.1;
+color: $dropcap;
 }
 
 h1 {
@@ -78,8 +79,8 @@ h2 {
 .westmarch-header {
     @include font-size(45);
     text-transform: uppercase;
-    font-family: "Bodoni Moda", Bodoni;
     font-variation-settings: "opsz" 18;
+    color: var(--color-dark);
 }
 
 
@@ -88,3 +89,12 @@ h2 {
         list-style-type: none;
     }
 }
+
+main h1 + p:not(.no-dropcap)::first-letter, main h2 + p:not(.no-dropcap)::first-letter, .dropcap::first-letter, .no-dropcap + p:not(.no-dropcap)::first-letter, .no-dropcap + p:not(.no-dropcap)::first-letter {
+    float: left;
+    float: inline-start;
+    font-size: 9em;
+    padding: 0.25rem 0.25rem 0 0;
+    line-height: 4.75rem;
+    color: $dropcap;
+  }
