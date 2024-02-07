@@ -10,8 +10,8 @@ eleventyComputed:
 permalink: "/{{ issue.volume }}/{{ issue.issue }}/"
 ---
 <h1>{{ issue.issueTitle }}</h1>
-<p class="subtitle">Westmarch vol. {{ issue.volume }}, no. {{ issue.issue }}</p>
-<p><a href="/{{ issue.volume }}/{{ issue.issue }}/{{ issue.letterurl }}/">Letter from the editor</a></p>
+<p class="subtitle no-dropcap">Westmarch vol. {{ issue.volume }}, no. {{ issue.issue }}</p>
+<p class="no-dropcap"><a href="/{{ issue.volume }}/{{ issue.issue }}/{{ issue.letterurl }}/">Letter from the editor</a></p>
 {% for category in issue.articleCategories %}
   <h2>{{ category | capitalize }}</h2>
   {% set postslist = collections[ category ] %}
