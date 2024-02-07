@@ -3,7 +3,7 @@
 $default-padding: 5rem;
 $padding: clamp(1rem, 8.7vw, 5rem);
 $max-width: calc(50rem + #{$padding});
-$border-width: max(1rem, calc(50vw - #{$max-width/2}));
+$border-width: 1rem;
 $text-size: 1rem;
 $header-height: 3rem;
 * {
@@ -39,7 +39,7 @@ body {
 .header, footer {
     min-height: $header-height;
     background-color: $header-color;
-    color: $color-light;
+    color: $header-text;
     padding: $default-padding;
     padding: ($header-height - $text-size)/2;
 }

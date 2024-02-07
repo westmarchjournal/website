@@ -66,6 +66,7 @@ module.exports = function(eleventyConfig) {
   // shortcodes 
   eleventyConfig.addShortcode("ytEmbed", require("./_11ty/ytEmbed.js"));
   eleventyConfig.addShortcode("citation", require("./_11ty/citation.js"));
+  eleventyConfig.addShortcode("contrast", require("./_11ty/contrast.js"));
   // https://github.com/KiwiKilian/eleventy-plugin-og-image/issues/36
   eleventyConfig.addShortcode("inlineImage", (path) => {
     const file = fs.readFileSync(path);

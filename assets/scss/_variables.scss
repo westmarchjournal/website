@@ -16,7 +16,8 @@ $color-light: var(--color-light);
 $color-dark: var(--color-dark);
 $text-color: var(--text-color);
 $background-color: var(--background-color);
-$header-color: $dark-grey;
+$header-color: var(--theme-color);
+$header-text: var(--header-text);
 
 :root {
     --theme-color: #{$dark-beige};
@@ -24,6 +25,7 @@ $header-color: $dark-grey;
     --color-dark: #160e00;
     --text-color: var(--color-dark);
     --background-color: var(--color-light);
+    --header-text: var(--color-dark);
 }
 
 // to make it print nicely

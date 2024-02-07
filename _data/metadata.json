@@ -9,6 +9,8 @@
   "image": "https://westmarchjournal.org/assets/images/book-background.jpg",
   "color": "#d9cfb1",
   "color_background": "#f4f4f2",
+  "colorlight": "#f4f4f2",
+  "colordark": "#160e00",
   "msvalidate01": "undefined",
   "webmasterEmail": "webmaster@westmarchjournal.org",
   "feed": {
