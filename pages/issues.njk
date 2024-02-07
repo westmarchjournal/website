@@ -9,7 +9,8 @@ eleventyComputed:
   title: "Westmarch vol. {{ issue.volume }}, no. {{ issue.issue }}: {{ issue.issueTitle }}"
 permalink: "/{{ issue.volume }}/{{ issue.issue }}/"
 ---
-<h1>Westmarch vol. {{ issue.volume }}, no. {{ issue.issue }}: {{ issue.issueTitle }}</h1>
+<h1>{{ issue.issueTitle }}</h1>
+<p class="subtitle">Westmarch vol. {{ issue.volume }}, no. {{ issue.issue }}</p>
 <p><a href="/{{ issue.volume }}/{{ issue.issue }}/{{ issue.letterurl }}/">Letter from the editor</a></p>
 {% for category in issue.articleCategories %}
   <h2>{{ category | capitalize }}</h2>
