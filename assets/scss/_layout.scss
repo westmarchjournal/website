@@ -63,3 +63,8 @@ body {
 .author {
     font-style: italic;
 }
+
+picture, picture * {
+    margin: 0 auto;
+    display: block;
+}

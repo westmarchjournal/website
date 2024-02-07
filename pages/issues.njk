@@ -36,3 +36,7 @@ permalink: "/{{ issue.volume }}/{{ issue.issue }}/"
   {{ issue.quote | safe }}
   <cite> {{ issue.quoteSource | safe }}</cite>
 </blockquote>
+
+{% if issue.coverImage %}
+  {% image issue.coverImage, issue.coverImageAlt %}
+{% endif %}

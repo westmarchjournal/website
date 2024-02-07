@@ -4,7 +4,7 @@
   "description": "The Westmarch journal website.",
   "main": "index.js",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-img": "^3.1.8",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "eleventy-plugin-og-image": "^2.1.1",

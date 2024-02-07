@@ -4,6 +4,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const slugify = require("slugify");
 const striptags = require("striptags");
 const EleventyPluginOgImage = require('eleventy-plugin-og-image');
+const Image = require("@11ty/eleventy-img");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
@@ -71,6 +72,7 @@ module.exports = function(eleventyConfig) {
     const file = fs.readFileSync(path);
     return `data:image/jpeg;base64,${file.toString('base64')}`;
   });
+  eleventyConfig.addShortcode("image", require("./_11ty/image.js"));
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
