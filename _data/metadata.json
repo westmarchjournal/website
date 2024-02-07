@@ -1,10 +1,10 @@
 {
   "title": "the Westmarch Literary Journal",
   "short_title": "Westmarch",
-  "url": "https://westmarch-prototype.netlify.app/",
+  "url": "https://westmarchjournal.org/",
   "citationurl": "westmarchjournal.org",
   "description": "The Westmarch literary journal at Patrick Henry College",
-  "keywords": "",
+  "keywords": ["Westmarch", "Literary Journal", "Patrick Henry College", "PHC"],
   "lang": "en-US",
   "image": "https://westmarchjournal.org/assets/images/book-background.jpg",
   "color": "#d9cfb1",

@@ -78,7 +78,7 @@ Herbert, after quoting numerous of his contemporaries on the subject,
 shows that the doctrine of vocation displaced spirituality away from
 even private meditation into the workplace, in effect, displacing
 monastic asceticism into the secular arena. After illustrating the way
-17^th^ century Calvinists felt they had to work so arduously in the
+17<sup>th</sup> century Calvinists felt they had to work so arduously in the
 marketplace to prove their election, she cites Max Weber, who
 credits---or blames---the doctrine of vocation for the rise of
 capitalism, "Now every Christian had to be a monk all of his life."[^5]
