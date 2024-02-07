@@ -103,6 +103,7 @@ module.exports = function(eleventyConfig) {
   let markdownItDeflist = require("markdown-it-deflist");
   let markdownItFootnote = require('markdown-it-footnote');
   let markdownItAttrs = require("markdown-it-attrs");
+  let markdownItResponsive = require("./_11ty/markdownItResponsive.js");
   let mdOptions = {
     html: true,
     breaks: false,
@@ -114,12 +115,17 @@ module.exports = function(eleventyConfig) {
     permalinkClass: "direct-link",
     permalinkSymbol: "#"
   };
+  let riOptions = {
+    widths: [150, 300, 600, 800, 1000, 2000],
+    sizes:  "(max-width: 60rem) 100vw, 66vw"
+  };
 
   let md = markdownIt(mdOptions)
     .use(markdownItAnchor, anchorOptions)
     .use(markdownItDeflist)
     .use(markdownItAttrs)
-    .use(markdownItFootnote);
+    .use(markdownItFootnote)
+    .use(markdownItResponsive, riOptions);
 
   eleventyConfig.setLibrary("md", md);
 
