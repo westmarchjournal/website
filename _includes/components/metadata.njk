@@ -15,17 +15,20 @@
 <meta property="og:title" content="{{ title }}">
 <meta property="og:description" content="{{ renderData.description or description or metadata.description }}">
 <meta property="og:url" content="{{ page.url | url | absoluteUrl(metadata.url) }}">
+
 {% if card %}
     <meta property="og:image" content="{{ card | url |absoluteUrl(metadata.url) }}">
 {% else %}
     {% setAsync "ogOutputUrl" -%}
         {% ogImage "./og-image.og.njk", 
-            { title: title, author: author, 
+            { title: title, 
+            author: author, 
             description: description, 
             issue: issue, 
             volume: volume, 
-            color: issue.color or color or metadata.color,
-            image: issue.image or image or metadata.image
+            color: color or metadata.color,
+            imageTextColor: imageTextColor,
+            image: image or metadata.image
             } 
         %}
     {%- endsetAsync %}
