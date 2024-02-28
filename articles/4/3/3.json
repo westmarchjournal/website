@@ -1,0 +1,24 @@
+{
+    "volume": 4,
+    "issue": 3,
+    "date": "2024-02-29",
+    "issueTitle": "Winter's Tales",
+    "color": "#74d659",
+    "articleCategories": ["poetry", "criticism", "fiction", "special features"],
+    "editors": [
+        {"role": "Editor-in-Chief", "name": "Kaitlyn Tully"},
+        {"role": "Content Editor", "name": "Abbie Mourey"},
+        {"role": "Content Editor", "name": "Faith Thompson"},
+        {"role": "Content Editor", "name": "Grace Johnson"},
+        {"role": "Content Editor", "name": "Julia Adams"},
+        {"role": "Content Editor", "name": "Bethany Kawalec"},
+        {"role": "Web Editor", "name": "Micah Torcellini"}
+    ],
+    "quote": "",
+    "quoteSource": "",
+    "letterurl": null,
+    "coverImage": "/assets/images/4-3-cover-cropped.webp",
+    "coverImageAlt": "",
+    "CoverImageTitle": "",
+    "coverImageAuthor": "Catie Anne Banks"
+}
