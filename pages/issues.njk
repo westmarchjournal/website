@@ -10,7 +10,7 @@ eleventyComputed:
 permalink: "/{{ issue.volume }}/{{ issue.issue }}/"
 ---
 <h1>Westmarch vol. {{ issue.volume }}, no. {{ issue.issue }}: {{ issue.issueTitle }}</h1>
-<p><a href="/{{ issue.volume }}/{{ issue.issue }}/{{ issue.letterurl }}/">Letter from the editor</a></p>
+{% if letterurl %}<p><a href="/{{ issue.volume }}/{{ issue.issue }}/{{ issue.letterurl }}/">Letter from the editor</a></p>{% endif %}
 {% for category in issue.articleCategories %}
   <h2>{{ category | capitalize }}</h2>
   {% set postslist = collections[ category ] %}
@@ -38,5 +38,10 @@ permalink: "/{{ issue.volume }}/{{ issue.issue }}/"
 </blockquote>
 
 {% if issue.coverImage %}
+  <figure class="image">
   {% image issue.coverImage, issue.coverImageAlt %}
+  <figcaption>{{ issue.coverImageTitle }}{% if issue.coverImageTitle %}, {% endif %}
+    {% if issue.coverImageAuthor %}<cite>{{ issue.coverImageAuthor }}</cite>{% endif %}
+  </figcaption>
+  </figure>
 {% endif %}
