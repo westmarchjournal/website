@@ -77,5 +77,6 @@ picture, picture * {
     width: auto;
     max-width: 100%;
     height: auto;
+    /* I do this so that the whole art displays on the page. It probably messes up srcset, but I'm guessing that most screen layouts aren't affected enough by that to worry. */
     max-height: calc(100vh - 2rem);
 }
