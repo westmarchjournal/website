@@ -4,7 +4,7 @@
     "date": "2024-02-29",
     "issueTitle": "Winter's Tales",
     "color": "#b7443f",
-    "articleCategories": ["poetry", "criticism", "fiction", "special features"],
+    "articleCategories": ["poetry", "criticism", "fiction"],
     "editors": [
         {"role": "Editor-in-Chief", "name": "Kaitlyn Tully"},
         {"role": "Content Editor", "name": "Abbie Mourey"},
@@ -17,6 +17,7 @@
     "quote": "",
     "quoteSource": "",
     "letterurl": null,
+    "image": "https://westmarchjournal.org/assets/images/4-3-og-image.webp",
     "coverImage": "/assets/images/4-3-cover-cropped.webp",
     "coverImageAlt": "",
     "CoverImageTitle": "",
