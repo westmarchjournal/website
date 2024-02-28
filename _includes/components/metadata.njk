@@ -26,9 +26,9 @@
             description: description, 
             issue: issue, 
             volume: volume, 
-            color: color or metadata.color,
-            imageTextColor: imageTextColor,
-            image: image or metadata.image
+            color: issue.color or color or metadata.color,
+            imageTextColor: issue.imageTextColor or imageTextColor,
+            image: image or issue.image or metadata.image
             } 
         %}
     {%- endsetAsync %}
