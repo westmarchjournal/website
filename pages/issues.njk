@@ -10,7 +10,7 @@ eleventyComputed:
 permalink: "/{{ issue.volume }}/{{ issue.issue }}/"
 ---
 <h1>Westmarch vol. {{ issue.volume }}, no. {{ issue.issue }}: {{ issue.issueTitle }}</h1>
-{% if letterurl %}<p><a href="/{{ issue.volume }}/{{ issue.issue }}/{{ issue.letterurl }}/">Letter from the editor</a></p>{% endif %}
+{% if issue.letterurl %}<p><a href="/{{ issue.volume }}/{{ issue.issue }}/{{ issue.letterurl }}/">Letter from the editor</a></p>{% endif %}
 {% for category in issue.articleCategories %}
 {# someday somebody should make nunjucks filter to capitalize each word instead of using CSS... #}
   <h2 style="text-transform: capitalize">{{ category | capitalize }}</h2>
@@ -41,8 +41,8 @@ permalink: "/{{ issue.volume }}/{{ issue.issue }}/"
 {% if issue.coverImage %}
   <figure class="image">
   {% image issue.coverImage, issue.coverImageAlt %}
-  <figcaption>{{ issue.coverImageTitle }}{% if issue.coverImageTitle %}, {% endif %}
-    {% if issue.coverImageAuthor %}<cite>{{ issue.coverImageAuthor }}</cite>{% endif %}
+  <figcaption><cite>{{ issue.coverImageTitle }}{% if issue.coverImageTitle %}, {% endif %}
+    {% if issue.coverImageAuthor %}{{ issue.coverImageAuthor }}</cite>{% endif %}
   </figcaption>
   </figure>
 {% endif %}
