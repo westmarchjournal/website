@@ -199,27 +199,17 @@ wrath, and wishes it to come quickly:
 > Be it so, for I submit, his doom is fair,\
 > That dust I am, and shall to dust return:\
 > *O welcome hour whenever!* why delays
-
-His hand to execute his decree
-
+> His hand to execute his decree
 > Fixed on this day? *Why do I overlive,\
-> Why am I mocked with death,* and lengthened out
-
-To deathless pain?
-
-...
-
-Outstretched he lay, on the cold ground, and oft
-
-Cursed his creation, Death as oft accused
-
-Of tardy execution, since denounced
-
-The day of his offence. Why comes not Death?
-
-Said he, *with one thrice ácceptáble stroke*
-
-*To end me? (PL* 10.768-775, 851-856, my emphasis)
+> Why am I mocked with death,* and lengthened out\
+> To deathless pain?\
+> ...\
+> Outstretched he lay, on the cold ground, and oft\
+> Cursed his creation, Death as oft accused\
+> Of tardy execution, since denounced\
+> The day of his offence. Why comes not Death?\
+> Said he, *with one thrice ácceptáble stroke*\
+> *To end me? (PL* 10.768-775, 851-856, my emphasis)
 
 Both Redcrosse and Adam immediately wish to remove themselves from the
 trial and look to death as their rescue. The one important difference
@@ -291,18 +281,13 @@ finds her alone, having been left behind by her two brothers. This is
 very similar to *The Faerie Queene* when Una is discovered by Sansloy
 who,
 
-> With beastly sin thought her to have defiled,
->
-> And made the vassal of his plasures vilde.
->
-> Yet first he cast by treatie, and by traynes,
->
-> Here to perswade, that stubborne fort to yilde:
->
-> For greater conquest of hard love he gaynes,
->
-> That works it to his will, then he that it constraines. (Spenser
-> 1.6.3-9)
+> With beastly sin thought her to have defiled,\
+> And made the vassal of his plasures vilde.\
+> Yet first he cast by treatie, and by traynes,\
+> Here to perswade, that stubborne fort to yilde:\
+> For greater conquest of hard love he gaynes,\
+> That works it to his will, then he that it constraines. (Spenser\
+> 1.6.3-9)\
 
 When Una refuses to surrender her chastity, Sansloy tries to force her.
 When she calls out for help, a group of Faunes and Satyres come to her
@@ -351,39 +336,38 @@ must find all the hidden appearances Spenser makes, bringing another
 dimension of meaning and significance. Without Spenser, Milton's poem
 and masque are great; with Spenser, they are magnificent.
 
-Works Cited
+## Works Cited
 
-Bond, Christopher. *Spenser, Milton, and the Redemption of the Epic
+- Bond, Christopher. *Spenser, Milton, and the Redemption of the Epic
 Hero.* Lanham, Maryland: University of Delaware Press, 2011.
 
-Collett, Jonathan. "Milton\'s Use of Classical Mythology in 'Paradise
+- Collett, Jonathan. "Milton\'s Use of Classical Mythology in 'Paradise
 Lost,'" *PMLA,* vol. 85, Jan., 1970, pp. 88-96.*,*
 [[https://www.jstor.org/stable/1261434]{.ul}](https://www.jstor.org/stable/1261434).
 
-Greenlaw, Edwin. "A Better Teacher than Aquinas." *Studied in
+- Greenlaw, Edwin. "A Better Teacher than Aquinas." *Studied in
 Philology,* vol. 14, no. 2, 1917, pp. 1996-217. *JSTOR,*
 [[http://www.jstor.org/stable/4171709]{.ul}](http://www.jstor.org/stable/4171709).
 
-Milton, John. *Areopagitica. The Norton Anthology of English
+- Milton, John. *Areopagitica. The Norton Anthology of English
 Literature*, Edited by Stephen Greenblatt, et al.. 7 ed., vol 1, W.W.
 Norton & Company, 2012.
 
-\-\-\-\-\--. *Comus.* *Complete Poems and Major Prose.* Edited by
+- ------. *Comus.* *Complete Poems and Major Prose.* Edited by
 Merritt Y. Hughes. Hackett Publishing, Inc., 2003.
 
-\-\-\-\-\--. *Paradise Lost.* Edited by John Leonard. Penguin Classics,
-2000.
+- ------. *Paradise Lost.* Edited by John Leonard. Penguin Classics, 2000.
 
-*Reading the Classics with C.S. Lewis.* Edited by Thomas L. Martin.
+- *Reading the Classics with C.S. Lewis.* Edited by Thomas L. Martin.
 Baker Academic, 2000.
 
-Spenser, Edmund. *The Faerie Queene.* *The Norton Anthology of English
+- Spenser, Edmund. *The Faerie Queene.* *The Norton Anthology of English
 Literature,* edited by Stephen Greenblatt, et al..7 ed., vol 1, W.W.
 Norton & Company, 2012.
 
-\-\-\-\-\--. *The Faerie Queene*. Edited by J.C. Smith. Clarendon Press,
+- ------. *The Faerie Queene*. Edited by J.C. Smith. Clarendon Press,
 1909,
-[[https://archive.org/details/faeriequeen01spen/page/180/mode/2up]{.ul}](https://archive.org/details/faeriequeen01spen/page/180/mode/2up).
+[archive.org/details/faeriequeen01spen/page/180/mode/2up](https://archive.org/details/faeriequeen01spen/page/180/mode/2up).
 
 [^1]: The humors are a reference to Renaissance physiology which
     believed that bodily fluids were the cause of human temperament. An
