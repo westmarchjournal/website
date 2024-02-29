@@ -10,9 +10,10 @@ eleventyComputed:
 permalink: "/{{ issue.volume }}/{{ issue.issue }}/"
 ---
 <h1>Westmarch vol. {{ issue.volume }}, no. {{ issue.issue }}: {{ issue.issueTitle }}</h1>
-<p><a href="/{{ issue.volume }}/{{ issue.issue }}/{{ issue.letterurl }}/">Letter from the editor</a></p>
+{% if issue.letterurl %}<p><a href="/{{ issue.volume }}/{{ issue.issue }}/{{ issue.letterurl }}/">Letter from the editor</a></p>{% endif %}
 {% for category in issue.articleCategories %}
-  <h2>{{ category | capitalize }}</h2>
+{# someday somebody should make nunjucks filter to capitalize each word instead of using CSS... #}
+  <h2 style="text-transform: capitalize">{{ category | capitalize }}</h2>
   {% set postslist = collections[ category ] %}
   {# it would be a lot more graceful to use array.prototype.filter and include components/postlist.njk, but this is easier #}
   {# this should be the exact same code, though, aside for the conditionals #}
@@ -38,5 +39,10 @@ permalink: "/{{ issue.volume }}/{{ issue.issue }}/"
 </blockquote>
 
 {% if issue.coverImage %}
+  <figure class="image">
   {% image issue.coverImage, issue.coverImageAlt %}
+  <figcaption><cite>{{ issue.coverImageTitle }}{% if issue.coverImageTitle %}, {% endif %}
+    {% if issue.coverImageAuthor %}{{ issue.coverImageAuthor }}</cite>{% endif %}
+  </figcaption>
+  </figure>
 {% endif %}

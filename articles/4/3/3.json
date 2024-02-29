@@ -1,0 +1,26 @@
+{
+    "volume": 4,
+    "issue": 3,
+    "date": "2024-02-29",
+    "issueTitle": "Winter’s Tales",
+    "color": "#b7443f",
+    "articleCategories": ["poetry", "criticism", "fiction", "art", "web exclusive"],
+    "editors": [
+        {"role": "Editor-in-Chief", "name": "Kaitlyn Tully"},
+        {"role": "Content Editor", "name": "Abbie Mourey"},
+        {"role": "Content Editor", "name": "Faith Thompson"},
+        {"role": "Content Editor", "name": "Grace Johnson"},
+        {"role": "Content Editor", "name": "Julia Adams"},
+        {"role": "Content Editor", "name": "Bethany Kawalec"},
+        {"role": "Web Editor", "name": "Micah Torcellini"}
+    ],
+    "quote": "Me, poor man, my library was dukedom large enough.",
+    "quoteSource": "<i>The Tempest</i>, William Shakespeare",
+    "letterurl": "from-the-editor",
+    "image": "https://westmarchjournal.org/assets/images/4-3-og-image.jpg",
+    "imageTextColor": "#f4f4f2",
+    "coverImage": "/assets/images/4-3-cover-cropped.webp",
+    "coverImageAlt": "",
+    "coverImageTitle": "Scholarly",
+    "coverImageAuthor": "Caitie Anne Banks"
+}

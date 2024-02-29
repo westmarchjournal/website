@@ -39,12 +39,11 @@ function responsiveImage(src, cls, alt, sizes, widths) {
 
 var defaultRender = md.renderer.rules.image;
 
-function renderResponsive(md, tokens, idx, options, env, renderer) {
+function renderResponsive(md, tokens, idx, options) {
     let token = tokens[idx];
     let src = "./"+ token.attrs[0][1];
     let alt = token.content;
     let cls = "image";
-    // TODO: move this to .11ty.js
     let widths = options.widths;
     let sizes = options.sizes;
     let htmlResult = responsiveImage(src, cls, alt, sizes, widths);
@@ -53,7 +52,7 @@ function renderResponsive(md, tokens, idx, options, env, renderer) {
 
 function responsive_image(md, options) {
   return function (tokens, idx, opt, env, slf) {
-    return renderResponsive(md, tokens, idx, opt, env, slf, options);
+    return renderResponsive(md, tokens, idx, options);
   };
 };
 
