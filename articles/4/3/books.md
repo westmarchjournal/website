@@ -1,5 +1,5 @@
 ---
-name: Catie Anne
+name: Caitie Anne
 surname: Banks
 title: "A Stack of Books"
 authordescription: Catie Anne is junior History major at Patrick Henry College. 
