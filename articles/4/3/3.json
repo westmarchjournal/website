@@ -4,7 +4,7 @@
     "date": "2024-02-29",
     "issueTitle": "Winter’s Tales",
     "color": "#b7443f",
-    "articleCategories": ["poetry", "criticism", "fiction"],
+    "articleCategories": ["poetry", "criticism", "fiction", "art"],
     "editors": [
         {"role": "Editor-in-Chief", "name": "Kaitlyn Tully"},
         {"role": "Content Editor", "name": "Abbie Mourey"},
