@@ -3,7 +3,7 @@ name: Bret
 surname: van den Brink
 title: "Measure for Measure: Five Readings"
 authordescription: Bret van den Brink is a senior at Trinity Western University's English Honours program.
-tags: ["poetry"]
+tags: ["web exclusive"]
 permalink: "/4/3/measure-for-measure/"
 description: "O cipher fair and foul diagnostician / Of those dark aspects e'er haunting my heart, / I cannot now refuse your works of fission, / Convalescing what you have torn apart--- / Apocalyptic Comedy!"
 ---
