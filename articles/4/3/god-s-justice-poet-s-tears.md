@@ -1,5 +1,5 @@
 ---
-title: "God's Justice and the Poet's Tears "
+title: "God's Justice and the Poet's Tears"
 name: Aiden
 surname: Piercy
 authordescription: "Aiden Piercy is a freshman at Patrick Henry College."
