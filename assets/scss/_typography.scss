@@ -88,3 +88,18 @@ h2 {
         list-style-type: none;
     }
 }
+
+.banner {
+    .banner_link {
+        text-decoration: none;
+        padding: 1em;
+        border-width: 0.5em;
+        border-color: var(--theme-color);
+        border-style: solid;
+        padding: 1em;
+        display: block;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+}

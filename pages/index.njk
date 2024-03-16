@@ -6,6 +6,13 @@ card: "/assets/images/og-image-3.png"
 ---
 <h1 class="westmarch-header">Westmarch</h1>
 <p class="subtitle">A Literary Journal</p>
+{% for banner in collections.banner %}
+    <aside class="banner"><a href="{{ banner.url }}" class="banner_link">
+        <h2>{{ banner.data.bannertitle or banner.data.title }}</h2>
+        <p class="banner_paragraph">{{ banner.data.bannertext | safe }}</p>
+    </a></aside>
+{% endfor %}
+
 {% set issues = fetchIssues  %}
 {% for issue in issues | reverse %}
     <article>
