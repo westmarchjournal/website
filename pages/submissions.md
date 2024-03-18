@@ -2,9 +2,11 @@
 title: Submissions
 layout: base
 permalink: "/submissions/"
+tags: banner
+bannertext: "<i>Westmarch</i> invites submission for its next issue, &ldquo;The Thing with Feathers.&rdquo; This issue will cover any and all topics related to the Romantic period, particularly American Romanticism and Transcendentalism. Submissions are due April 3rd. Read more&hellip;"
 ---
 # Submissions 
 
-*Westmarch* invites submissions for its first Spring 2024 issue entitled “Winter’s Tales”. This issue will cover any and all topics related to Medieval and Renaissance literature. *Westmarch* prides itself on including a wide variety of content and accepts literary criticism, poetry, fiction, and narrative nonfiction. As such, any and all stories set from approximately 500-1650 AD are quite welcome (or any fantasy stories with comparable worldbuilding). We accept poetry engaging with Medieval and Renaissance forms, themes, or other related topics. Literary criticism engaging with Shakespeare, Milton, Dante, or any of the many other writers of this period is also encouraged.
+*Westmarch* invites submissions for its second Spring 2024 issue entitled “The Thing with Feathers”. This issue will cover any and all topics related to the Romantic period (mid 19th century), particularly American Romanticism and Transcendentalism. *Westmarch* prides itself on including a wide variety of content and accepts literary criticism, poetry, fiction, and narrative nonfiction. Please send papers dealing with great American literary figures such as Edgar Allan Poe, Emily Dickinson, and Walt Whitman. We welcome stories and poetry dealing with themes of Transcendentalism including, but not limited to, nature, individualism, and experience. We also accept similarly themed narrative nonfiction. 
  
-We welcome submissions from all current undergraduates, as well as students who have graduated, but submit a paper written during their undergraduate career. All submissions must be under 5,500 words. All submissions must also be in MLA format. Submissions are due <del>February 9th</del> <ins>extended to February 14th</ins>. Please send all submissions to [westmarch@westmarchjournal.org](mailto:westmarch@westmarchjournal.org). 
+We welcome submissions from all current undergraduates, as well as students who have graduated, but submit a paper written during their undergraduate career. All submissions must be under 5,500 words and in MLA format. Submissions are due April 3rd. Please send all submissions to [westmarch@westmarchjournal.org](mailto:westmarch@westmarchjournal.org). Please reach out if you have any questions. We can’t wait to read your work!
