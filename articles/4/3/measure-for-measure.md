@@ -56,8 +56,8 @@ Our liberation from this brutal life;\
 He made us long for our loss of breath, \
 To bid adieu, absolving bliss and strife. \
 *To God!* He laughed. Sardonic irony \
-Oozed from his mouth. *To God!* He spat, *To God!---*\
-*O, if only they knew that I were he, *\
+Oozed from his mouth. *To God!* He spat, *To God!*---\
+*O, if only they knew that I were he,*\
 *That I drink absinthe e'er I wield my rod!*\
 *To God!* He leaves, and silences the lapse,\
 And pulls along us ladies and us chaps.
