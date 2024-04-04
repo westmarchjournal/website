@@ -4,12 +4,12 @@ eleventyComputed:
     pageTitle: "{{ title | striptags}} | Westmarch vol. {{ volume}}, no. {{ issue }}"
 ---
 <h1>{{ title | safe }}</h1>
-<p class="author name"><a href="/authors/{{ author | slugify }}">{{ author }}</a></p>
+<p class="author name"><a href="/authors/{{ author | slugify }}">{{ author }}/</a></p>
 {% include "components/citation.njk" %}
 {{ content | safe}}
 {% if authordescription %}
 <p class="author description">{{ authordescription }}</p>
 {% endif %}
 {% if collections.article | filterByAuthor( author ) | length > 1 %}
-<p><a href="/authors/{{ author | slugify }}">Read more of this author's articles.</a></p>
+<p><a href="/authors/{{ author | slugify }}/">Read more of this author's articles.</a></p>
 {% endif %}
