@@ -2,7 +2,6 @@
 title: Submissions
 layout: base
 permalink: "/submissions/"
-tags: banner
 bannertext: "<i>Westmarch</i> invites submission for its next issue, &ldquo;The Thing with Feathers.&rdquo; This issue will cover any and all topics related to the Romantic period, particularly American Romanticism and Transcendentalism. Submissions are due April 3rd. Read more&hellip;"
 ---
 # Submissions 
