@@ -6,6 +6,6 @@ authordescription: Isaac is a junior Polical Philosophy major at Patrick Henry C
 tags: ["art"]
 permalink: "/4/4/woodstock-new-hampshire/"
 description: ""
-card: "/assets/images/4-4-cover.jpg"
+card: "/assets/images/4-4-cover.webp"
 ---
-![Picture the landscape of Woodstock, New Hampshire.](/assets/images/4-4-cover.jpg)
+![Picture the landscape of Woodstock, New Hampshire.](/assets/images/4-4-cover.webp)
