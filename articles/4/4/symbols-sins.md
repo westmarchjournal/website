@@ -3,7 +3,7 @@ title: "Symbols and Sins: The Perception of Sin in <i>The Scarlet Letter</i> and
 name: Ariane
 surname: Campbell
 authordescription: ""
-tags: ["fiction"]
+tags: ["criticism"]
 permalink: "/4/4/symbols-sins/"
 ---
 
