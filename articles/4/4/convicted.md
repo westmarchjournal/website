@@ -1,5 +1,5 @@
 ---
-title: 'Convicted (In Response to William Ernest Henley)'
+title: "Convicted (In Response to William Ernest Henley)"
 name: Terra
 surname: Miller
 authordescription: "Terra is a junior International Business major and Creative Writing minor at Palm Beach Atlantic University."

@@ -1,5 +1,5 @@
 ---
-title: 'Night’s Lament'
+title: "Night’s Lament"
 name: Susannah
 surname: Hoskins
 authordescription: "Susannah is a freshman Economics and Business Analytics major at Patrick Henry College."

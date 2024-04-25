@@ -1,7 +1,7 @@
 ---
-title: 'Heaven on Earth: Emily Dickinson's Sense of Home in Love and Nature'
 name: Lauren
 surname: Mock
+title: "Heaven on Earth: Emily Dickinson's Sense of Home in Love and Nature"
 authordescription: "Lauren is a junior English major at Messiah University."
 tags: ["fiction"]
 permalink: "/4/4/heaven-on-earth/"

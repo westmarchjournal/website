@@ -1,5 +1,5 @@
 ---
-title: 'Scholia on Kantian Aesthetics and Romanticism: Poetic Prose'
+title: "Scholia on Kantian Aesthetics and Romanticism: Poetic Prose"
 name: Robert
 surname: Eakins
 authordescription: "Robert is a junior at Olivet Nazarene University."

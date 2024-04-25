@@ -1,5 +1,5 @@
 ---
-title: 'the sun'
+title: "the sun"
 name: Hannah
 surname: Moore
 authordescription: "Hannah is an senior English major at Palm Beach Atlantic University."

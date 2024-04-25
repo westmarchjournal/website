@@ -1,5 +1,5 @@
 ---
-title: 'Symbols and Sins: The Perception of Sin in <i>The Scarlet Letter</i> and <i>Moby Dick</i>'
+title: "Symbols and Sins: The Perception of Sin in <i>The Scarlet Letter</i> and <i>Moby Dick</i>"
 name: Ariane
 surname: Campbell
 authordescription: ""

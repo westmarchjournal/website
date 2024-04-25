@@ -1,6 +1,6 @@
 ---
-title: 'Unknowable Greatness: Understanding Emily Dickinson's Uncertain Inquiry
-through Job's Insistent Questioning'
+title: "Unknowable Greatness: Understanding Emily Dickinson's Uncertain Inquiry
+through Job's Insistent Questioning"
 name: Macy
 surname: Wright
 authordescription: "Macy is an English, Biblical and Religious Studies, and Chemistry sophomore at Messiah University."

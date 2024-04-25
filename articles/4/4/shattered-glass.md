@@ -1,5 +1,5 @@
 ---
-title: 'Shattered Glass'
+title: "Shattered Glass"
 name: Kira
 surname: Dewey
 authordescription: "Kira is an Honors student majoring in English and minoring in Creative Writing at Palm Beach Atlantic University."

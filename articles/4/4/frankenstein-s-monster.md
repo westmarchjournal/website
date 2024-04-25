@@ -1,5 +1,5 @@
 ---
-title: 'Frankenstein’s Monster: or, The Modern Philotes'
+title: "Frankenstein’s Monster: or, The Modern Philotes"
 name: Abigail
 surname: Taylor
 authordescription: ""
