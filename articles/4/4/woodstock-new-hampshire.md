@@ -2,7 +2,7 @@
 name: Isaac
 surname: Torcellini
 title: "Woodstock, New Hampshire"
-authordescription: Isaac is a junior Polical Philosophy major at Patrick Henry College. 
+authordescription: Isaac is a junior Political Philosophy major at Patrick Henry College. 
 tags: ["art"]
 permalink: "/4/4/woodstock-new-hampshire/"
 description: ""
