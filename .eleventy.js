@@ -51,8 +51,7 @@ module.exports = function(eleventyConfig) {
     return product;
   });
   eleventyConfig.addFilter("striptags", function(value) {
-      let product = striptags(value);
-      return product;
+      return striptags(value);
   });
   eleventyConfig.addFilter("shortTitle", function(value) {
       return splitTitle.shortTitle(value);
@@ -75,10 +74,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addShortcode("ytEmbed", require("./_11ty/ytEmbed.js"));
   eleventyConfig.addShortcode("citation", require("./_11ty/citation.js"));
   // https://github.com/KiwiKilian/eleventy-plugin-og-image/issues/36
-  eleventyConfig.addShortcode("inlineImage", (path) => {
-    const file = fs.readFileSync(path);
-    return `data:image/jpeg;base64,${file.toString('base64')}`;
-  });
+  // I just ended up using a remote image, so this is not necessary (it didn't 
+  // work either). A better solution might be able to be found. 
+  // eleventyConfig.addShortcode("inlineImage", (path) => {
+  //   const file = fs.readFileSync(path);
+  //   return `data:image/jpeg;base64,${file.toString('base64')}`;
+  // });
   eleventyConfig.addShortcode("image", require("./_11ty/image.js"));
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
