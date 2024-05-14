@@ -2,6 +2,7 @@ const { DateTime } = require("luxon");
 const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const slugify = require("slugify");
+const splitTitle = require("./_11ty/splitTitle.js");
 const striptags = require("striptags");
 const EleventyPluginOgImage = require('eleventy-plugin-og-image');
 const Image = require("@11ty/eleventy-img");
@@ -52,6 +53,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("striptags", function(value) {
       let product = striptags(value);
       return product;
+  });
+  eleventyConfig.addFilter("shortTitle", function(value) {
+      return splitTitle.shortTitle(value);
+  });
+  eleventyConfig.addFilter("subtitle", function(value) {
+    return splitTitle.subtitle(value);
   });
   eleventyConfig.addFilter("filterByAuthor", function(collection, author) {
     let product = collection.filter((article) => article.data.author === author )

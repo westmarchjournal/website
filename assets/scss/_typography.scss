@@ -68,11 +68,23 @@ h2 {
     font-weight: 500;
 }
 
+.author {
+    font-style: italic;
+}
+
 .subtitle {
+    @extend .author;
+    i, em {
+        font-style: normal;
+    }
+}
+
+.westmarch-header + .subtitle {
     @include font-size(15);
     font-weight: 600;
     margin-top: 0;
     margin-left: 1em;
+    font-style: normal;
 }
 
 .westmarch-header {
