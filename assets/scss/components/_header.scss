@@ -1,12 +1,12 @@
 .header, footer {
     ol, ul {
         margin: 0 auto;
-        * {
+        li {
             display: inline-block;
             &::after {
                 content: " ❧ ";
             }
-        &:last-child::after {
+            &:last-child::after {
             content: none;
             }
         }
