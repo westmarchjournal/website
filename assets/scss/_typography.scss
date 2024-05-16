@@ -116,3 +116,17 @@ h2 {
         font-size: 1.5rem;
     }
 }
+
+// bibliography
+#works-cited + ul, #bibliography + ul, #references + ul {
+    list-style-type: none;
+    padding: 0;
+    li {
+        margin: 1em 0 1em 3em;
+        text-indent: -3em;
+        p {
+            margin: 0;
+            text-align: inherit;
+        }
+    }
+}

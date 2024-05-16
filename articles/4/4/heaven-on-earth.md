@@ -278,44 +278,34 @@ of earthly love and nature.
 - Buell, Janet W. "'A Slow Solace': Emily Dickinson and Consolation." *The
 New England Quarterly*, vol. 62, no. 3, 1989, pp. 323--45. *JSTOR*,
 https://doi.org/10.2307/365778. Accessed 11 Dec. 2023.
-
 - Burbick, Joan. "'One Unbroken Company': Religion and Emily Dickinson."
 *The New England Quarterly*, vol. 53, no. 1, 1980, pp. 62--75. *JSTOR*,
 https://doi.org/10.2307/365289. Accessed 11 Dec. 2023.
-
 - Dickinson, Emily. *Emily Dickinson's Poems: As She Preserved Them*.
 Edited by Cristanne Miller, The Belknap Press of Harvard University
 Press, 2016.
-
 - Dickinson, Emily. "Letters from Dickinson to Abiah Root." 8 Sep. 1846.
 From *Dickinson Electronic Archives.*
 http://archive.emilydickinson.org/correspondence/aroot/l13.html.
-
 - Dickinson, Emily. "Emily Dickinson's Correspondences." 1852. From
 *Dickinson Electronic Archives.*
 http://archive.emilydickinson.org/working/hl9.htm.
-
 - Dickinson, Emily. "Emily Dickinson's Intimate Letters to Susan
 Huntington Dickinson." 1852. From *The New York Times Archives*.
 https://archive.nytimes.com/www.nytimes.com
 /books/first/h/hart-open.html.
-
 - Dickinson, Emily. "Letters from Dickinson to Otis Phillips Lord." 3
 December 1882. From *Dickinson Electronic Archives*.
 http://archive.emilydickinson.org/correspondence /lord/l790.html.
-
 - Dickinson, Emily. "Letters from Dickinson to Otis Phillips Lord." 30
 April 1882. From *Dickinson Electronic Archives*.
 http://archive.emilydickinson.org/correspondence /lord/l750.html.
-
 - Mudge, Jean McClure. "Emily Dickinson and 'Sister Sue.'" *Prairie Schooner*, vol. 52, no. 1, 1978, pp. 90--108. *JSTOR*,
 http://www.jstor.org/stable/40630521. Accessed 11 Dec. 2023.
-
 - Onodera, Saori. "Two Forms of 'Heaven' in Emily Dickinson's Poetry."
 *Sophia English Studies*, vol. 33, 2008, pp. 19--27. *EBSCOhost*,
 search.ebscohost.com/login.aspx?direct=true&db=
 mzh&AN=2010420312&site=ehost-live&scope=site.
-
 - Phillips, Christopher N. "Keeping the Sabbath at Home: Emily Dickinson
 and the Rise of Private Hymnody." *Above the American Renaissance: David
 S. Reynolds and the Spiritual Imagination in American Literary Studies*,
@@ -323,11 +313,9 @@ edited by Harold K. Bush and Brian Yothers, University of Massachusetts
 Press, 2018, pp. 211--26. *EBSCOhost*,
 search.ebscohost.com/login.aspx?direct=true&db=mzh&AN=202017919566&site=ehost
 live&scope=site.
-
 - Scheurich, Neil. "Suffering and Spirituality in the Poetry of Emily
 Dickinson." *Pastoral Psychology*, vol. 56, no. 2, Nov. 2007, pp.
 189--97. *EBSCOhost*, https://doi.org/10. 1007/s11089-007-0109-7.
-
 - St. Armand, Barton Levi. "Paradise Deferred: The Image of Heaven in the
 Work of Emily Dickinson and Elizabeth Stuart Phelps." *American
 Quarterly*, vol. 29, no. 1, 1977, pp. 55--78. *JSTOR*,

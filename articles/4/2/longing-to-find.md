@@ -298,7 +298,7 @@ compulsion is our liberation" (*Surprised by Joy*, 280). His children's
 hearts ache so that they can be healed one day at home. And in the end,
 he brings all his children home.
 
-Works Cited
+## Works Cited
 
 - Lewis, C.S. *Perelandra : A Novel*. HarperCollins, 2012.
 - \-\--. *Surprised by Joy.* HarperCollins, 1955.

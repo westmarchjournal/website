@@ -472,39 +472,31 @@ approach to exploring questions of faith and about what it looks like to
 - Brantley, Richard E. \"The Interrogative Mood of Emily Dickinson\'s
 Quarrel with God.\" *Religion and Literature*, vol. 46, no. 1, spring
 2014, pp. 157-65. *JSTOR*, www.jstor.org/stable/24752995. Accessed 27 Nov. 2023.
-
 - Herndon, Jerry A. \"A Note on Emily Dickinson and Job.\" *Christianity
 and Literature*, vol. 30, no. 3, spring 1981, pp. 45-52. *JSTOR*,
 www.jstor.org/stable/44314337. Accessed 12 Dec. 2023.
-
 - Keane, Patrick. *Emily Dickinson\'s Approving God : Divine Design and
 the Problem of Suffering*. U of Missouri P, 2008. *ProQuest Ebook
 Central*,
 ebookcentral.proquest.com/lib/messiah-ebooks/reader.action?docID=3440717\#.
 Accessed 27 Nov. 2023.
-
 - Kjaer, Niels. \"Emily Dickinson, Job\'s Sister.\" *Dickinson Studies:
 Emily Dickinson (1830-86), U.S. Poet*, vol. 65, 1988, pp. 19-24. *MLA
 International Bibliography*. Accessed 27 Nov. 2023.
-
 - McIntosh, James. *Nimble Believing: Dickinson and the Unknown*. Ann
 Arbor, U of Michigan P, 2000.
-
 - New, Elisa. \"Difficult Writing, Difficult God: Emily Dickinson\'s Poems
 beyond Circumference.\" *Religion and Literature*, vol. 18, no. 3, fall
 1986, pp. 1-27. *JSTOR*,
 www.jstor.org/stable/40059320. Accessed 27 Nov. 2023.
-
 - Rapin, Rene. \"Dickinson\'s \'I Never Lost as Much but Twice.\'\" *The
 Explicator*, vol. 31, no. 52, 1973. *MLA International Bibliography*,
 messiah-illiad-oclc-org.ezproxy.messiah.edu/illiad/illiad.dll?Action=10&Form=75&Valu
 e=137038. Accessed 12 Dec. 2023.
-
 - Robinson, Fred Miller. \"Strategies of Smallness: Wallace Stevens and
 Emily Dickinson.\" *The Wallace Stevens Journal*, vol. 10, no. 1, 1986,
 pp. 27-35. *JSTOR*,
 www.jstor.org/stable/44879203. Accessed 27 Nov. 2023.
-
 - Von der Heydt, James E. \"Dickinson Outdoors.\" *At the Brink of
 Infinity : Poetic Humility in Boundless American Space*, U of Iowa P,
 2008, pp. 75-105. *ProQuest Ebook Central*,

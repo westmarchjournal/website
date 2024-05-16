@@ -279,23 +279,18 @@ moral identity to their respective communities.
 
 - Abel, Darrel. "Hawthorne's Pearl: Symbol and Character." *ELH*, vol. 18,
 no. 1, 1951, pp. 50--66. *JSTOR*,
-[https://doi.org/10.2307/2872046]{.ul}.
-
-- *Bible Gateway*. 2023, [www.biblegateway.com]{.ul}.
-
+[https://doi.org/10.2307/2872046].
+- *Bible Gateway*. 2023, [www.biblegateway.com].
 - Cuddy, Lois A. "Mother-Daughter Identification in *The Scarlet Letter*."
 *Mosaic: A Journal for the Interdisciplinary Study of Literature*, vol.
 19, no. 2, 1986, pp. 101--15. *JSTOR*, http://
-[www.jstor.org/stable/24777695]{.ul}.
-
+[www.jstor.org/stable/24777695].
 - Gao, Haihong. "An Analysis of Symbolic Images in *The Scarlet Letter*."
 *Theory and Practice in Language Studies*, vol. 8, no. 12, Dec. 2018,
 pp. 1725+. *Gale Academic OneFile*,
-[link.gale.com/apps/doc/A566681551/AONE?u=west87348&sid=bookmark]{.ul}
+[link.gale.com/apps/doc/A566681551/AONE?u=west87348&sid=bookmark]
 AONE&xid=1f2a98bc.
-
 - Hawthorne, Nathaniel. *The Scarlet Letter,* iBooks ed.
-
 - Hoffman, Michael J. "The Anti-Transcendentalism of *Moby-Dick*." *The
 Georgia Review*, vol. 23, no. 1, 1969, pp. 3--16. *JSTOR*,
 http://www.jstor.org/stable/41396515. Mahini, Ramtin Noor-Tehrani Noor,
@@ -303,15 +298,12 @@ and Erin Barth. "*The Scarlet Letter*: Embroidering Transcendentalism
 and Anti-transcendentalism Thread for an Early American World." *Journal
 of Language Teaching and Research*, vol. 9, no. 3, May 2018, pp. 474+.
 *Gale Academic OneFile*, [link.gale.com/apps/doc/A626042801/AONE?u=west87348&sid=bookmark-AONE&xid=07cc5923]
-
 - Melville, Herman. *Moby Dick,* iBooks ed.
-
 - Packham, Jimmy. "Pip's Oceanic Voice: Speech and the Sea in
 *Moby-Dick*." *The Modern Language Review*, vol. 112, no. 3, 2017, pp.
 567--84. *JSTOR*, [https://doi.org/10.5699/]
 modelangrevi.112.3.0567
-
 - Ye, Xiaoni. "A Biblical Archetypal Study on *Moby Dick*." *Theory and
 Practice in Language Studies*, vol. 12, no. 12, Dec. 2022, pp. 2620+.
-*Gale Academic OneFile*, [link.gale.com/]{.ul}
+*Gale Academic OneFile*, [link.gale.com/]
 apps/doc/A733969875/AONE?u=west87348&sid=bookmark-AONE&xid=64675660.
