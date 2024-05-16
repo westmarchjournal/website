@@ -2,11 +2,6 @@
 ## Structure
 Organize articles into volumes and issues. Put links to PDF files on the homepage for each issue. This will probably require a JSON file for each issue (or can I do it with special front matter in the editor's letter?). 
 
-Citation information should be included in each article. 
-
-Figure out how to do biographies. 
-
-Make a submissions page. 
 ## Components
 - `_includes/layouts/` contains layout files.
 - `_includes/components/` contains component files. 
@@ -14,10 +9,6 @@ Make a submissions page.
     - `metadata.njk` is the metadata for the `<head>`
 
 ## Visual Design
-
-
-## Other things
-Donate button. 
 
 ## Shortcodes. 
 
@@ -45,22 +36,22 @@ Parameters:
 Usage example: 
 
 ```nunjucks
-        {% set data  = {
-            "authors":  [
-                {
-                    "name": name,
-                    "surname": surname,
-                    "author": author
-                }
-            ],
-            "date": page.date,
-            "title": title,
-            "journaltitle": metadata.title | title,
-            "volume": volume,
-            "issue": issue,
-            "url": metadata.citationurl + page.url | url
+{% set data  = {
+    "authors":  [
+        {
+            "name": name,
+            "surname": surname,
+            "author": author
         }
-        %}
+    ],
+    "date": page.date,
+    "title": title,
+    "journaltitle": metadata.title | title,
+    "volume": volume,
+    "issue": issue,
+    "url": metadata.citationurl + page.url | url
+}
+%}
 <p>{% citation "turabian-note", data %}</p>
 ```
 ### `image` 
