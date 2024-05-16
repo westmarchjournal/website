@@ -275,7 +275,7 @@ with children also determine how their sin is perceived, along with how
 they are received by others. Ultimately, Hester and Ahab affirm their
 moral identity to their respective communities.
 
-## Works Cited:
+## Works Cited
 
 - Abel, Darrel. "Hawthorne's Pearl: Symbol and Character." *ELH*, vol. 18,
 no. 1, 1951, pp. 50--66. *JSTOR*,
