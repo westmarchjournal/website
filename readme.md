@@ -2,7 +2,7 @@
 ## Data Structure
 Pages are in the pages directory. 
 
-Articles are in the articles directory. They are organized by volume and issue. Each issue directory has a directory data file, which must have the filename of the directory name, e.g. `1` requires the directory data `1.json`. See the [Eleventy directory data file documentation](https://www.11ty.dev/docs/data-template-dir/) for more details. 
+Articles are in the articles directory. They are organized by volume and issue. Each issue directory has a directory data file, which must have the filename of the directory name, e.g. `/1/1` requires the directory data `1.json`. See the [Eleventy directory data file documentation](https://www.11ty.dev/docs/data-template-dir/) for more details. 
 
 ## Issue Directory Data Files
 
@@ -37,7 +37,7 @@ These cascade to all the pages in the directory.
 title: "Title, may include HTML tags. Make sure to escape YAML control characters"
 name: name
 surname: surname
-author: Only use this field if the author goes by a pseudonym that should not be broken into name and surname for citation (i.e. Harmonious Finch should not be cited as Finch, Harmonious). Do not use the name and surname fields if you use this field. The template will merge the name and surname fields into the author field, so you can omit it in the content files. 
+author: Only use this field if the author goes by a pseudonym that should not be broken into name and surname for citation (i.e. Harmonious Finch should not be cited as Finch, Harmonious). Do not use the name and surname fields if you use this field. base.njk will merge the name and surname fields into the author field, so you can omit it in the content files. 
 authordescription: "Biography for the author (optional)"
 tags: ["the category you want it to show up in, e.g. criticism"]
 permalink: "/vol/issue/slug/" (the permalink is written out in full in order to make future site editing or migration easier)
@@ -52,7 +52,16 @@ Content goes here.
     - `metadata.njk` is the metadata for the `<head>`
 
 ### Layouts
+Included in `_includes/layouts/`
 
+#### `article.njk`
+Template for articles only. 
+
+#### `base.njk`
+Root template. calculates `author` and `citationAuthor` fields. Includes `components/metadata.njk`, `components/header.njk`, and `components/footer.njk`. 
+
+> [!CAUTION]
+> This template does *not* insert a <h1> with the title into the template. If you start making a lot of content pages that are not articles, it would be a good idea to make a template for that. 
 
 
 ## Visual Design
