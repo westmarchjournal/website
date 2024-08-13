@@ -15,7 +15,7 @@ These cascade to all the pages in the directory.
     "date": "date (string in ISO format, e.g. 2024-08-13)",
     "issueTitle": "issue title (string)",
     "color": "hexadecimal color code (string including octothorpe)",
-    "articleCategories": ["article categories (strings in an array)"],
+    "articleCategories": ["article categories (strings in an array), match tags in article front matter, e.g. criticism"],
     "editors": [ 
         {"role": "Position", "name": "Name as it should be displayed in issue page"}
     ],
@@ -30,8 +30,20 @@ These cascade to all the pages in the directory.
     "coverImageAuthor": "author for cover image (string)"
 }
 ```
-
 ## Article Front Matter
+
+```yaml
+---
+title: "Title, may include HTML tags. Make sure to escape YAML control characters"
+name: name
+surname: surname
+author: Only use this field if the author goes by a pseudonym that should not be broken into name and surname for citation (i.e. Harmonious Finch should not be cited as Finch, Harmonious). Do not use the name and surname fields if you use this field. The template will merge the name and surname fields into the author field, so you can omit it in the content files. 
+authordescription: "Biography for the author (optional)"
+tags: ["the category you want it to show up in, e.g. criticism"]
+permalink: "/vol/issue/slug/" (the permalink is written out in full in order to make future site editing or migration easier)
+---
+Content goes here. 
+```
 
 ## Components
 - `_includes/layouts/` contains layout files.
