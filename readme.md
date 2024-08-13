@@ -71,6 +71,18 @@ permalink: "/vol/issue/slug/" (the permalink is written out in full in order to 
 Content goes here. 
 ```
 
+## Markdown Style Guide
+
+Eleventy uses [Markdown-it](https://github.com/markdown-it/markdown-it) to render Markdown. 
+
+Top-level headings should be `<h2>` (`##`). `<h1>` is for the article title and is in the front matter. 
+
+Works cited should be `<ul>` elements. The `<h2>` above them must be titled "Works Cited", "References," or "Bibliography" (not case-sensitive) for them to be formatted as a works cited (the CSS selector is in `_typography.scss` if a name needs to be added--they work by CSS ID and sibling element selectors). 
+
+Links in works cited should be clickable and represented as Markdown links, but the way people format their bibliographies means that this usually has to be done manually because Pandoc can't. 
+
+Footnotes are made by [Markdown-it-footnote](https://github.com/markdown-it/markdown-it-footnote). 
+
 ## Fancy Code to Make Content into Website
 
 ### Components
@@ -268,10 +280,13 @@ Gets the first `n` elements of a collection.
 Parameters: 
 - n: number of elements desired. 
 
-## Visual Design
+## Visual Design/CSS
+Written in [SCSS](https://sass-lang.com/). 
 
 ## How-to
 ### Generate Markdown with [Pandoc](https://pandoc.org/)
+
+It is much easier to get properly-formatted Word documents and convert them than to copy-paste. Pandoc does this nicely. It makes me happy and will make you happy also. 
 
 `pandoc "filename.docx" -o "filename.md"`
 
