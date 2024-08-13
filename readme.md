@@ -3,6 +3,25 @@
 Built using [Eleventy](https://www.11ty.dev/) on Node.js. General information can be found on the Eleventy website. [Micah Torcellini also wrote about this project on his website](https://micah.torcellini.org/academic-journal/).
 
 ## Data Structure
+Academic journals are usually structured by volume and issue, so the directory structure parallels that. 
+
+```
+_11ty (various functions)
+_data (global data)
+_includes
+  └───components
+  └─── layouts
+articles
+  └───volume number
+      └───issue number
+assets
+  └───css
+  └───fonts
+  └───images
+  └───SCSS
+  └───pages
+```
+
 Pages are in the pages directory. 
 
 Articles are in the articles directory. They are organized by volume and issue. Each issue directory has a directory data file, which must have the filename of the directory name, e.g. `/1/1` requires the directory data `1.json`. See the [Eleventy directory data file documentation](https://www.11ty.dev/docs/data-template-dir/) for more details. 
@@ -10,6 +29,8 @@ Articles are in the articles directory. They are organized by volume and issue. 
 ## Issue Directory Data Files
 
 These cascade to all the pages in the directory. 
+
+I chose to put the full permalink into each article's [front matter](https://www.11ty.dev/docs/data-frontmatter/). While it would be easy to generate these permalinks automatically, I wanted each article's permalink to be hard-coded to it. Thus, even if the content is re-organized, the content would be permanently accessible at the same URL as long as the new system uses the front matter data.
 
 ```json
 {
