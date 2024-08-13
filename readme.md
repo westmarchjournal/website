@@ -126,6 +126,37 @@ Makes a list of posts and authors. Included in `pages/authors.njk`.
 
 TODO: The different iterations of postlists should probably be consolidated eventually. 
 
+## Site Pages
+Pages in `pages` that include site data. There are also normal pages in Markdown files. 
+
+### `authors.njk`
+Lists authors. 
+
+### `index.njk`
+Site homepage. 
+- displays issues
+- displays homepage banner: 
+    To set a banner, tag a page "banner" and put a `bannertitle` and a `bannertext` key in the front matter. `bannertitle` will be enclosed in an `<h2>` element. Both the `bannertitle` and `bannertext` will be place in a banner at the top of the homepage and will link to the page. Though it is possible to make more than one banner, the CSS was only designed for one and it probably a good idea to limit to one. 
+
+## Generated Pages
+Pages that are automatically generated from templates in `pages`. See ["Pages from Data in the Eleventy documentation"](https://www.11ty.dev/docs/pages-from-data/).
+
+### `author.njk`
+Generates a page for each author. See [the article on Micah Torcellini's website for technical details](https://micah.torcellini.org/2023/09/23/author-page-manipulate-collections/)--it was a fairly nasty technical problem. 
+
+### `issues.njk`
+Generates a page for each issue from the directory file and the individual articles. Uses the `_11ty/fetchIssues.js` function to get the list of issues. 
+
+TODO: there are a few notes of how this could be done more gracefully. This works for now, but I'm concerned it might become slower as more issues are published. 
+
+### `ris.njk`
+Generates an RIS file for every article in the `article` collection. 
+
+### `tags.njk`
+Makes a page with a list of posts for each tag. 
+
+TODO: decide if this is necessary, since the only tags are for types of articles and pages. 
+
 ## Visual Design
 
 ## Shortcodes. 
