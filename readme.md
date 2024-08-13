@@ -2,8 +2,7 @@
 
 Built using [Eleventy](https://www.11ty.dev/) on Node.js. General information can be found on the Eleventy website. [Micah Torcellini also wrote about this project on his website](https://micah.torcellini.org/academic-journal/).
 
-## Data Structure
-Academic journals are usually structured by volume and issue, so the directory structure parallels that. 
+## Project Directory Structure
 
 ```
 _11ty (various functions)
@@ -22,11 +21,14 @@ assets
   └───pages
 ```
 
-Pages are in the pages directory. 
+## Content Structure
+Academic journals are usually structured by volume and issue, so the directory structure parallels that. 
+
+Pages are in the pages directory. See [Site pages](#site-pages)
 
 Articles are in the articles directory. They are organized by volume and issue. Each issue directory has a directory data file, which must have the filename of the directory name, e.g. `/1/1` requires the directory data `1.json`. See the [Eleventy directory data file documentation](https://www.11ty.dev/docs/data-template-dir/) for more details. 
 
-## Issue Directory Data Files
+### Issue Directory Data Files
 
 These cascade to all the pages in the directory. 
 
@@ -54,7 +56,7 @@ I chose to put the full permalink into each article's [front matter](https://www
     "coverImageAuthor": "author for cover image (string)"
 }
 ```
-## Article Front Matter
+### Article Front Matter
 
 ```yaml
 ---
@@ -69,38 +71,40 @@ permalink: "/vol/issue/slug/" (the permalink is written out in full in order to 
 Content goes here. 
 ```
 
-## Components
+## Fancy Code to Make Content into Website
+
+### Components
 - `_includes/layouts/` contains layout files.
 - `_includes/components/` contains component files. 
     - `citation.njk` is the citation generator.
     - `metadata.njk` is the metadata for the `<head>`
 
-### Layouts
+#### Layouts
 In `_includes/layouts/`.
 
-#### `article.njk`
+##### `article.njk`
 Template for articles only. 
 
-#### `base.njk`
+##### `base.njk`
 Root template. calculates `author` and `citationAuthor` fields. Includes `components/metadata.njk`, `components/header.njk`, and `components/footer.njk`. 
 
 > [!CAUTION]
 > This template does *not* insert a `<h1>` with the title into the template. If you start making a lot of content pages that are not articles, it would be a good idea to make a template for that. 
 
-## Layout Partials
+### Layout Partials
 In `_includes/components/`.
 
-### `citation.njk`
+#### `citation.njk`
 - Links to RIS
 - packages [`citation` shortcode](#citation) in a `<details`> element. 
 
-### `footer.njk`
+#### `footer.njk`
 The footer. Has CSS classes that show and hide things for different media. 
 
-### `header.njk`
+#### `header.njk`
 The header/navigation bar. 
 
-### `metadata.njk`
+#### `metadata.njk`
 All the metadata that goes in `<head>`.
 - charset
 - `<title>` (with `striptags` filter so that you can use HTML in article titles)
@@ -121,47 +125,47 @@ All the metadata that goes in `<head>`.
 - Generator meta so that we can be on the Eleventy leaderboards. 
 
 
-### `postlist.njk`
+#### `postlist.njk`
 Makes a list of posts and authors. Included in `pages/authors.njk`. 
 
 TODO: The different iterations of postlists should probably be consolidated eventually. 
 
-## Site Pages
+### Site Pages
 Pages in `pages` that include site data. There are also normal pages in Markdown files. 
 
-### `authors.njk`
+#### `authors.njk`
 Lists authors. 
 
-### `index.njk`
+#### `index.njk`
 Site homepage. 
 - displays issues
 - displays homepage banner: 
     To set a banner, tag a page "banner" and put a `bannertitle` and a `bannertext` key in the front matter. `bannertitle` will be enclosed in an `<h2>` element. Both the `bannertitle` and `bannertext` will be place in a banner at the top of the homepage and will link to the page. Though it is possible to make more than one banner, the CSS was only designed for one and it probably a good idea to limit to one. 
 
-## Generated Pages
+### Generated Pages
 Pages that are automatically generated from templates in `pages`. See ["Pages from Data in the Eleventy documentation"](https://www.11ty.dev/docs/pages-from-data/).
 
-### `author.njk`
+#### `author.njk`
 Generates a page for each author. See [the article on Micah Torcellini's website for technical details](https://micah.torcellini.org/2023/09/23/author-page-manipulate-collections/)--it was a fairly nasty technical problem. 
 
-### `issues.njk`
+Note that a bio can be added in `_data/authors.json`. I usually email people after they have a few articles published for an extended bio. 
+
+#### `issues.njk`
 Generates a page for each issue from the directory file and the individual articles. Uses the `_11ty/fetchIssues.js` function to get the list of issues. 
 
 TODO: there are a few notes of how this could be done more gracefully. This works for now, but I'm concerned it might become slower as more issues are published. 
 
-### `ris.njk`
+#### `ris.njk`
 Generates an RIS file for every article in the `article` collection. 
 
-### `tags.njk`
+#### `tags.njk`
 Makes a page with a list of posts for each tag. 
 
 TODO: decide if this is necessary, since the only tags are for types of articles and pages. 
 
-## Visual Design
+### Shortcodes. 
 
-## Shortcodes. 
-
-### `ytEmbed`
+#### `ytEmbed`
 
 Embeds a video using lite-youtube. I don't believe it is used in any of this project, but it is available of necessary. 
 
@@ -172,7 +176,7 @@ Parameters:
 - t: any desired `title` attribute
 - c: any desired `class` attribute
 
-### `citation`
+#### `citation`
 
 Creates a citation. Used in `./_includes/components/citation.njk`.
 
@@ -203,7 +207,7 @@ Usage example:
 %}
 <p>{% citation "turabian-note", data %}</p>
 ```
-### `image` 
+#### `image` 
 
 Makes a responsive image using `eleventy-image`. 
 
@@ -221,48 +225,50 @@ Usage example:
 {% image "/assets/images/img.jpeg", "alternate text" %}
 ```
 
-## Filters
+### Filters
 
-### `readableDate`
+#### `readableDate`
 
 Formats a JavaScript date object to a readable format (LLLL dd, yyyy).
 
-### `year`
+#### `year`
 
 Formats a JavaScript date object to display just the year. 
 
-### `slugify-removeChars`
+#### `slugify-removeChars`
 
 Removes characters that are not allowable in URLs (*+~.()'"!:@’“”). 
 
-### `striptags`
+#### `striptags`
 
 Removes HTML tags. 
 
-### `shortTitle` and `subtitle`
+#### `shortTitle` and `subtitle`
 
 Splits a string at the colon (:). `shortTitle` returns the part before the first colon, `subtitle` returns the part after it (until any other colon). This is useful for getting the short titles and subtitles from article titles. 
 
 Code in [`./11ty/splitTitle.js`](./11ty/splitTitle.js).
 
-### `filterByAuthor`
+#### `filterByAuthor`
 
 Filters a collection by the `author`. Used in [`./pages/author.njk`](./pages/author.njk)
 
-### `sortAuthorsByArticleNumber`
+#### `sortAuthorsByArticleNumber`
 
 Sorts items in the `author` collection by `articlenumber`. Used in [`./pages/authors.njk`](./pages/authors.njk).
 
-### `htmlDateString`
+#### `htmlDateString`
 
 Formats an [HTML date string](https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string) from a JavaScript date object. 
 
-### `head`
+#### `head`
 
 Gets the first `n` elements of a collection.
 
 Parameters: 
 - n: number of elements desired. 
+
+## Visual Design
 
 ## How-to
 ### Generate Markdown with [Pandoc](https://pandoc.org/)
