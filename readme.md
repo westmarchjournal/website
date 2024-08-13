@@ -1,12 +1,47 @@
 # *Westmarch* Website
-## Structure
-Organize articles into volumes and issues. Put links to PDF files on the homepage for each issue. This will probably require a JSON file for each issue (or can I do it with special front matter in the editor's letter?). 
+## Data Structure
+Pages are in the pages directory. 
+
+Articles are in the articles directory. They are organized by volume and issue. Each issue directory has a directory data file, which must have the filename of the directory name, e.g. `1` requires the directory data `1.json`. See the [Eleventy directory data file documentation](https://www.11ty.dev/docs/data-template-dir/) for more details. 
+
+## Issue Directory Data Files
+
+These cascade to all the pages in the directory. 
+
+```json
+{
+    "volume": volume number (integer),
+    "issue": issue number (integer),
+    "date": "date (string in ISO format, e.g. 2024-08-13)",
+    "issueTitle": "issue title (string)",
+    "color": "hexadecimal color code (string including octothorpe)",
+    "articleCategories": ["article categories (strings in an array)"],
+    "editors": [ 
+        {"role": "Position", "name": "Name as it should be displayed in issue page"}
+    ],
+    "quote": "Issue quote (may have HTML tags)",
+    "quoteSource": "Attribution for the quote",
+    "letterurl": "from-the-editor", (should not be changed for consistency unless there is a good reason)
+    "image": "*absolute* url to OG image background (must be already on the web for the OG image generator to work) (string)",
+    "imageTextColor": "hexadecimal color code (string including octothorpe)",
+    "coverImage": "relative URL to image (string)",
+    "coverImageAlt": "alternate text for cover image (string)",
+    "coverImageTitle": "title for cover image (string)",
+    "coverImageAuthor": "author for cover image (string)"
+}
+```
+
+## Article Front Matter
 
 ## Components
 - `_includes/layouts/` contains layout files.
 - `_includes/components/` contains component files. 
     - `citation.njk` is the citation generator.
     - `metadata.njk` is the metadata for the `<head>`
+
+### Layouts
+
+
 
 ## Visual Design
 
