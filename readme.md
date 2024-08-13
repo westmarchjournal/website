@@ -52,7 +52,7 @@ Content goes here.
     - `metadata.njk` is the metadata for the `<head>`
 
 ### Layouts
-Included in `_includes/layouts/`
+In `_includes/layouts/`.
 
 #### `article.njk`
 Template for articles only. 
@@ -61,8 +61,46 @@ Template for articles only.
 Root template. calculates `author` and `citationAuthor` fields. Includes `components/metadata.njk`, `components/header.njk`, and `components/footer.njk`. 
 
 > [!CAUTION]
-> This template does *not* insert a <h1> with the title into the template. If you start making a lot of content pages that are not articles, it would be a good idea to make a template for that. 
+> This template does *not* insert a `<h1>` with the title into the template. If you start making a lot of content pages that are not articles, it would be a good idea to make a template for that. 
 
+## Layout Partials
+In `_includes/components/`.
+
+### `citation.njk`
+- Links to RIS
+- packages [`citation` shortcode](#citation) in a `<details`> element. 
+
+### `footer.njk`
+The footer. Has CSS classes that show and hide things for different media. 
+
+### `header.njk`
+The header/navigation bar. 
+
+### `metadata.njk`
+All the metadata that goes in `<head>`.
+- charset
+- `<title>` (with `striptags` filter so that you can use HTML in article titles)
+- description (defaults to the `description` in `_data/metadata.json` but can be overridden for any page or article with `description`)
+- Link to RSS feed
+- viewport meta (for responsive web design)
+- link to CSS. 
+- msvalidate (Bing Webmaster tools)
+- theme color (defaults to `color` in `metadata.json` but can be overridden by either the issue `color` or the page `color`)
+- style element that sets the `--theme-color` CSS variable to make the page border the right color. 
+- OG image data tags, including the shortcode to make the OG image shortcode make one. 
+- canonical link
+- keywords (tags and `metadata.json` keywords)
+- author (defaults to `metadata.json`, overridden by page and article authors)
+- Citation metadata (see [Google Scholar indexing](https://scholar.google.com/intl/en/scholar/inclusion.html#indexing))
+- Icons (TBH I just copied these)
+- Link to manifest
+- Generator meta so that we can be on the Eleventy leaderboards. 
+
+
+### `postlist.njk`
+Makes a list of posts and authors. Included in `pages/authors.njk`. 
+
+TODO: The different iterations of postlists should probably be consolidated eventually. 
 
 ## Visual Design
 
