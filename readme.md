@@ -1,4 +1,7 @@
 # *Westmarch* Website
+
+Built using [Eleventy](https://www.11ty.dev/) on Node.js. General information can be found on the Eleventy website. [Micah Torcellini also wrote about this project on his website](https://micah.torcellini.org/academic-journal/).
+
 ## Data Structure
 Pages are in the pages directory. 
 
@@ -119,9 +122,9 @@ Parameters:
 
 ### `citation`
 
-Creates a citation. Used in `[./_includes/components/citation.njk]`.
+Creates a citation. Used in `./_includes/components/citation.njk`.
 
-Code in [./11ty/citation.js]. 
+Code in `./11ty/citation.js`. 
 
 Parameters: 
 - style (req.): citation style. It currently includes `turabian-note`, `turabian-bib`, `mla`, and `apa`.
