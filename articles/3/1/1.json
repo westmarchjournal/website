@@ -1,0 +1,19 @@
+{
+    "volume": 3,
+    "issue": 1,
+    "date": "2022-09-01",
+    "comment": "I don't actually know the date but this was a guess--the print issue just says FA2022",
+    "issueTitle": "Where the Wind Warbles",
+    "color": false,
+    "articleCategories": ["poetry", "fiction", "criticism", "faculty"],
+    "editors": [
+        {"role": "Editor-in-Chief", "name": "Lauren Crane"},
+        {"role": "Content Editor", "name": "Anna Fox"},
+        {"role": "Content Editor", "name": "Kaitlyn Tully"},
+        {"role": "Content Editor", "name": "Abbie Mourey"},
+        {"role": "Layout Editor", "name": "Elyse Burgess"}
+    ],
+    "quote": "O Wind,/If Winter comes, can Spring be far behind?",
+    "quoteSource": "Percy Bysshe Shelley, “Ode to the West Wind”",
+    "letterurl": "from-the-editor"
+}
