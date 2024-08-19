@@ -45,17 +45,17 @@
 <meta name="citation_author" content="{{ citationAuthor or metadata.author.name }}">
 <meta name="citation_publication_date" content="{{ page.date | year }}">
 <meta name="citation_journal_title" content="{{ metadata.title | title}}">
-<meta name="citation_volume" content="{{ volume }}">
-<meta name="citation_issue" content="{{ issue }}">
+<meta name="citation_volume" content="{{ issue.volume or volume }}">
+<meta name="citation_issue" content="{{ issue.issue or issue }}">
 
 
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
 <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
-<link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="{{ issue.color or metadata.color }}">
+<link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="{{ issue.color or color or metadata.color }}">
 <link rel="shortcut icon" href="/favicon.ico">
-<meta name="msapplication-TileColor" content="{{ issue.color or metadata.color }}">
+<meta name="msapplication-TileColor" content="{{ issue.color or color or metadata.color }}">
 <meta name="msapplication-config" content="/browserconfig.xml">
 
 
